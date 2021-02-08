@@ -1,0 +1,38 @@
+---
+- hosts: centos
+  tasks:
+  - name: Create file
+    file:
+      state: touch
+      path: lineinfilemodule
+
+  - name: Write line in file
+    lineinfile:
+      path: lineinfilemodule
+      line: "LINE IN FILE MODULE"
+
+  - name: Write line in file regexp
+    lineinfile:
+      path: lineinfilemodule
+      regexp: "^LINE IN FILE MODULE"
+      line: "LINE IN FILE MODULE CHANGED"
+
+  - name: Write line in file insertafter
+    lineinfile:
+      path: lineinfilemodule
+      insertafter: "IN FILE"
+      line: "LINE IN FILE MODULE CHANGED ADDED ADDED"
+      firstmatch: yes
+
+#  - name: Write line in file if not present
+#    lineinfile:
+#      path: lineinfilemodule1
+#      line: "LINE IN FILE MODULE"
+#      state: present
+#      create: yes
+
+  - name: remove content of file
+    lineinfile:
+      path: lineinfilemodule
+      regexp: ".*"
+      state: absent

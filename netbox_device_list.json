@@ -1,0 +1,2212 @@
+{
+  "count": 19,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 16,
+      "name": "Dual-Port 1GBASE-T",
+      "display_name": "Dual-Port 1GBASE-T",
+      "device_type": {
+        "id": 5,
+        "url": "http://9.30.141.117:32011/api/dcim/device-types/5/",
+        "manufacturer": {
+          "id": 4,
+          "url": "http://9.30.141.117:32011/api/dcim/manufacturers/4/",
+          "name": "Broadcom",
+          "slug": "broadcom"
+        },
+        "model": "Gigabit Ethernet BCM5720",
+        "slug": "gigabit-ethernet-bcm5720",
+        "display_name": "Broadcom Gigabit Ethernet BCM5720"
+      },
+      "device_role": {
+        "id": 13,
+        "url": "http://9.30.141.117:32011/api/dcim/device-roles/13/",
+        "name": "Network Interface Card",
+        "slug": "nic"
+      },
+      "tenant": null,
+      "platform": null,
+      "serial": "",
+      "asset_tag": null,
+      "site": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/sites/2/",
+        "name": "RTP",
+        "slug": "RTP"
+      },
+      "rack": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/racks/2/",
+        "name": "Rack1",
+        "display_name": "Rack1"
+      },
+      "position": null,
+      "face": null,
+      "parent_device": null,
+      "status": {
+        "value": "active",
+        "label": "Active",
+        "id": 1
+      },
+      "primary_ip": null,
+      "primary_ip4": null,
+      "primary_ip6": null,
+      "cluster": null,
+      "virtual_chassis": null,
+      "vc_position": null,
+      "vc_priority": null,
+      "comments": "",
+      "local_context_data": null,
+      "tags": [],
+      "custom_fields": {
+        "compute_name": "compute_name_Dual_Port_1GBASE_T",
+        "firmware_name": "firmware_name_Dual_Port_1GBASE_T"
+      },
+      "config_context": {},
+      "created": "2020-09-10",
+      "last_updated": "2020-10-28T10:08:26.800062Z"
+    },
+    {
+      "id": 7,
+      "name": "Telco-Dell1",
+      "display_name": "Telco-Dell1",
+      "device_type": {
+        "id": 3,
+        "url": "http://9.30.141.117:32011/api/dcim/device-types/3/",
+        "manufacturer": {
+          "id": 2,
+          "url": "http://9.30.141.117:32011/api/dcim/manufacturers/2/",
+          "name": "DELL",
+          "slug": "dell"
+        },
+        "model": "PowerEdge OEM R640 XL",
+        "slug": "idrac-dell",
+        "display_name": "DELL PowerEdge OEM R640 XL"
+      },
+      "device_role": {
+        "id": 18,
+        "url": "http://9.30.141.117:32011/api/dcim/device-roles/18/",
+        "name": "UnderCloud",
+        "slug": "undercloud"
+      },
+      "tenant": null,
+      "platform": {
+        "id": 1,
+        "url": "http://9.30.141.117:32011/api/dcim/platforms/1/",
+        "name": "x86_64",
+        "slug": "x86_64"
+      },
+      "serial": "123456",
+      "asset_tag": null,
+      "site": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/sites/2/",
+        "name": "RTP",
+        "slug": "RTP"
+      },
+      "rack": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/racks/2/",
+        "name": "Rack1",
+        "display_name": "Rack1"
+      },
+      "position": 2,
+      "face": {
+        "value": "front",
+        "label": "Front",
+        "id": 0
+      },
+      "parent_device": null,
+      "status": {
+        "value": "active",
+        "label": "Active",
+        "id": 1
+      },
+      "primary_ip": {
+        "id": 9,
+        "url": "http://9.30.141.117:32011/api/ipam/ip-addresses/9/",
+        "family": 4,
+        "address": "9.42.116.8/24"
+      },
+      "primary_ip4": {
+        "id": 9,
+        "url": "http://9.30.141.117:32011/api/ipam/ip-addresses/9/",
+        "family": 4,
+        "address": "9.42.116.8/24"
+      },
+      "primary_ip6": null,
+      "cluster": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/virtualization/clusters/2/",
+        "name": "Undercloud"
+      },
+      "virtual_chassis": null,
+      "vc_position": null,
+      "vc_priority": null,
+      "comments": "",
+      "local_context_data": null,
+      "tags": [],
+      "custom_fields": {
+        "compute_name": "compute_name_dell1",
+        "firmware_name": "firmware_name"
+      },
+      "config_context": {},
+      "created": "2020-09-09",
+      "last_updated": "2020-10-01T14:51:05.634614Z"
+    },
+    {
+      "id": 15,
+      "name": "Telco-Dell1-PERC H730P-RaidController",
+      "display_name": "Telco-Dell1-PERC H730P-RaidController",
+      "device_type": {
+        "id": 6,
+        "url": "http://9.30.141.117:32011/api/dcim/device-types/6/",
+        "manufacturer": {
+          "id": 2,
+          "url": "http://9.30.141.117:32011/api/dcim/manufacturers/2/",
+          "name": "DELL",
+          "slug": "dell"
+        },
+        "model": "PowerEdge RAID Controller H730P",
+        "slug": "perc-h730p-raidcontroller",
+        "display_name": "DELL PowerEdge RAID Controller H730P"
+      },
+      "device_role": {
+        "id": 16,
+        "url": "http://9.30.141.117:32011/api/dcim/device-roles/16/",
+        "name": "Raid Controller",
+        "slug": "raid-controller"
+      },
+      "tenant": null,
+      "platform": null,
+      "serial": "Embedded",
+      "asset_tag": null,
+      "site": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/sites/2/",
+        "name": "RTP",
+        "slug": "RTP"
+      },
+      "rack": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/racks/2/",
+        "name": "Rack1",
+        "display_name": "Rack1"
+      },
+      "position": null,
+      "face": null,
+      "parent_device": {
+        "id": 7,
+        "url": "http://9.30.141.117:32011/api/dcim/devices/7/",
+        "name": "Telco-Dell1",
+        "display_name": "Telco-Dell1",
+        "device_bay": {
+          "id": 3,
+          "url": "http://9.30.141.117:32011/api/dcim/device-bays/3/",
+          "device": {
+            "id": 7,
+            "url": "http://9.30.141.117:32011/api/dcim/devices/7/",
+            "name": "Telco-Dell1",
+            "display_name": "Telco-Dell1"
+          },
+          "name": "Slot1"
+        }
+      },
+      "status": {
+        "value": "active",
+        "label": "Active",
+        "id": 1
+      },
+      "primary_ip": null,
+      "primary_ip4": null,
+      "primary_ip6": null,
+      "cluster": null,
+      "virtual_chassis": null,
+      "vc_position": null,
+      "vc_priority": null,
+      "comments": "",
+      "local_context_data": null,
+      "tags": [],
+      "custom_fields": {
+        "compute_name": "compute_name_Telco-Dell1-PERC",
+        "firmware_name": "firmware_name_Telco-Dell1-PERC"
+      },
+      "config_context": {
+        "logical_disks": [
+          {
+            "disk_name": "OS",
+            "raid_type": "RAID 1",
+            "physical_disk_ids": "[0,1]",
+            "num_physical_disks": "2"
+          }
+        ],
+        "raid_controller": "RAID.Integrated.1-1",
+        "delete_existing_disks": "False"
+      },
+      "created": "2020-09-10",
+      "last_updated": "2020-10-28T10:08:54.897066Z"
+    },
+    {
+      "id": 8,
+      "name": "Telco-Dell2",
+      "display_name": "Telco-Dell2",
+      "device_type": {
+        "id": 3,
+        "url": "http://9.30.141.117:32011/api/dcim/device-types/3/",
+        "manufacturer": {
+          "id": 2,
+          "url": "http://9.30.141.117:32011/api/dcim/manufacturers/2/",
+          "name": "DELL",
+          "slug": "dell"
+        },
+        "model": "PowerEdge OEM R640 XL",
+        "slug": "idrac-dell",
+        "display_name": "DELL PowerEdge OEM R640 XL"
+      },
+      "device_role": {
+        "id": 8,
+        "url": "http://9.30.141.117:32011/api/dcim/device-roles/8/",
+        "name": "Controller",
+        "slug": "controller"
+      },
+      "tenant": null,
+      "platform": {
+        "id": 1,
+        "url": "http://9.30.141.117:32011/api/dcim/platforms/1/",
+        "name": "x86_64",
+        "slug": "x86_64"
+      },
+      "serial": "123456",
+      "asset_tag": null,
+      "site": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/sites/2/",
+        "name": "RTP",
+        "slug": "RTP"
+      },
+      "rack": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/racks/2/",
+        "name": "Rack1",
+        "display_name": "Rack1"
+      },
+      "position": 3,
+      "face": {
+        "value": "front",
+        "label": "Front",
+        "id": 0
+      },
+      "parent_device": null,
+      "status": {
+        "value": "active",
+        "label": "Active",
+        "id": 1
+      },
+      "primary_ip": {
+        "id": 49,
+        "url": "http://9.30.141.117:32011/api/ipam/ip-addresses/49/",
+        "family": 4,
+        "address": "9.42.116.19/24"
+      },
+      "primary_ip4": {
+        "id": 49,
+        "url": "http://9.30.141.117:32011/api/ipam/ip-addresses/49/",
+        "family": 4,
+        "address": "9.42.116.19/24"
+      },
+      "primary_ip6": null,
+      "cluster": {
+        "id": 3,
+        "url": "http://9.30.141.117:32011/api/virtualization/clusters/3/",
+        "name": "Overcloud"
+      },
+      "virtual_chassis": null,
+      "vc_position": null,
+      "vc_priority": null,
+      "comments": "",
+      "local_context_data": null,
+      "tags": [],
+      "custom_fields": {
+        "compute_name": "compute_name_dell2",
+        "firmware_name": "firmware_name"
+      },
+      "config_context": {
+        "controller_template": {
+          "mtu": "1500",
+          "linux_bond_1": {
+            "interface": [
+              {
+                "name": "ens2f1"
+              },
+              {
+                "name": "ens3f1"
+              }
+            ]
+          },
+          "linux_bond_option": {
+            "mode": "802.3ad",
+            "miimon": "100",
+            "lacp_rate": "slow"
+          },
+          "network_config_interface_name": "ens3f1"
+        },
+        "overcloud_controller_properties": {
+          "min_cpu": "<min cpu cores needed for the controller node>",
+          "min_disk": "<min disk size in gb needed for the controller node>",
+          "min_memory": "<min memory in mb needed for the controller node>",
+          "controller_linux_bond_option": {
+            "mode": "802.3ad",
+            "miimon": "100",
+            "lacp_rate": "slow"
+          }
+        },
+        "overcloud_network_environment": {
+          "IPMINetwork": {
+            "mtu": "1500",
+            "cidr": "192.168.23.0/24",
+            "vlanId": "2023",
+            "gateway": "192.168.23.1",
+            "subnetIpEnd": "192.168.23.25",
+            "subnetIpStart": "192.168.23.5"
+          },
+          "TenantNetwork": {
+            "mtu": "1500",
+            "cidr": "192.168.23.0/24",
+            "vlanId": "2023",
+            "gateway": "192.168.23.1",
+            "subnetIpEnd": "192.168.23.25",
+            "subnetIpStart": "192.168.23.5"
+          },
+          "StorageNetwork": {
+            "mtu": "1500",
+            "cidr": "192.168.21.0/24",
+            "vlanId": "2021",
+            "gateway": "192.168.21.1",
+            "subnetIpEnd": "192.168.21.25",
+            "subnetIpStart": "192.168.21.5"
+          },
+          "ExternalNetwork": {
+            "mtu": "1500",
+            "cidr": "9.42.116.0/24",
+            "vlanId": "901",
+            "gateway": "9.42.116.1",
+            "subnetIpEnd": "9.42.116.62",
+            "subnetIpStart": "9.42.116.58"
+          },
+          "InternalNetwork": {
+            "mtu": "1500",
+            "cidr": "192.168.22.0/24",
+            "vlanId": "2022",
+            "gateway": "192.168.22.1",
+            "subnetIpEnd": "192.168.22.25",
+            "subnetIpStart": "192.168.22.5"
+          },
+          "NeutronNetworkType": "flat,vlan",
+          "ProvisioningNetwork": {
+            "mtu": "1500",
+            "cidr": "192.168.25.0/24",
+            "vlanId": "2025",
+            "gateway": "192.168.25.1",
+            "subnetIpEnd": "192.168.25.25",
+            "subnetIpStart": "192.168.25.5"
+          },
+          "PublicVirtualFixedIPs": "9.42.116.109",
+          "UndercloudControlplane": {
+            "cidr": "192.168.10.0/24",
+            "gateway": "192.168.10.1"
+          },
+          "NeutronNetworkVLANRanges": "sriov1:2:900,provider:2025:2030"
+        }
+      },
+      "created": "2020-09-10",
+      "last_updated": "2020-11-01T04:33:21.306596Z"
+    },
+    {
+      "id": 17,
+      "name": "Telco-Dell2-PERC H730P-RaidController",
+      "display_name": "Telco-Dell2-PERC H730P-RaidController",
+      "device_type": {
+        "id": 6,
+        "url": "http://9.30.141.117:32011/api/dcim/device-types/6/",
+        "manufacturer": {
+          "id": 2,
+          "url": "http://9.30.141.117:32011/api/dcim/manufacturers/2/",
+          "name": "DELL",
+          "slug": "dell"
+        },
+        "model": "PowerEdge RAID Controller H730P",
+        "slug": "perc-h730p-raidcontroller",
+        "display_name": "DELL PowerEdge RAID Controller H730P"
+      },
+      "device_role": {
+        "id": 16,
+        "url": "http://9.30.141.117:32011/api/dcim/device-roles/16/",
+        "name": "Raid Controller",
+        "slug": "raid-controller"
+      },
+      "tenant": null,
+      "platform": null,
+      "serial": "Embedded",
+      "asset_tag": null,
+      "site": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/sites/2/",
+        "name": "RTP",
+        "slug": "RTP"
+      },
+      "rack": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/racks/2/",
+        "name": "Rack1",
+        "display_name": "Rack1"
+      },
+      "position": null,
+      "face": null,
+      "parent_device": {
+        "id": 8,
+        "url": "http://9.30.141.117:32011/api/dcim/devices/8/",
+        "name": "Telco-Dell2",
+        "display_name": "Telco-Dell2",
+        "device_bay": {
+          "id": 12,
+          "url": "http://9.30.141.117:32011/api/dcim/device-bays/12/",
+          "device": {
+            "id": 8,
+            "url": "http://9.30.141.117:32011/api/dcim/devices/8/",
+            "name": "Telco-Dell2",
+            "display_name": "Telco-Dell2"
+          },
+          "name": "Slot1"
+        }
+      },
+      "status": {
+        "value": "active",
+        "label": "Active",
+        "id": 1
+      },
+      "primary_ip": null,
+      "primary_ip4": null,
+      "primary_ip6": null,
+      "cluster": null,
+      "virtual_chassis": null,
+      "vc_position": null,
+      "vc_priority": null,
+      "comments": "",
+      "local_context_data": null,
+      "tags": [],
+      "custom_fields": {
+        "compute_name": "compute_name_Telco-Dell2-PERC",
+        "firmware_name": "firmware_name_Telco-Dell2-PERC"
+      },
+      "config_context": {
+        "logical_disks": [
+          {
+            "disk_name": "OS",
+            "raid_type": "RAID 1",
+            "physical_disk_ids": "[0,1]",
+            "num_physical_disks": "2"
+          }
+        ],
+        "raid_controller": "RAID.Integrated.1-1",
+        "delete_existing_disks": "False"
+      },
+      "created": "2020-09-10",
+      "last_updated": "2020-11-01T04:33:21.336733Z"
+    },
+    {
+      "id": 9,
+      "name": "Telco-Dell3",
+      "display_name": "Telco-Dell3",
+      "device_type": {
+        "id": 3,
+        "url": "http://9.30.141.117:32011/api/dcim/device-types/3/",
+        "manufacturer": {
+          "id": 2,
+          "url": "http://9.30.141.117:32011/api/dcim/manufacturers/2/",
+          "name": "DELL",
+          "slug": "dell"
+        },
+        "model": "PowerEdge OEM R640 XL",
+        "slug": "idrac-dell",
+        "display_name": "DELL PowerEdge OEM R640 XL"
+      },
+      "device_role": {
+        "id": 6,
+        "url": "http://9.30.141.117:32011/api/dcim/device-roles/6/",
+        "name": "Compute-SRIOV",
+        "slug": "compute-sriov"
+      },
+      "tenant": null,
+      "platform": null,
+      "serial": "123456",
+      "asset_tag": null,
+      "site": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/sites/2/",
+        "name": "RTP",
+        "slug": "RTP"
+      },
+      "rack": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/racks/2/",
+        "name": "Rack1",
+        "display_name": "Rack1"
+      },
+      "position": 4,
+      "face": {
+        "value": "front",
+        "label": "Front",
+        "id": 0
+      },
+      "parent_device": null,
+      "status": {
+        "value": "active",
+        "label": "Active",
+        "id": 1
+      },
+      "primary_ip": {
+        "id": 46,
+        "url": "http://9.30.141.117:32011/api/ipam/ip-addresses/46/",
+        "family": 4,
+        "address": "9.42.116.21/32"
+      },
+      "primary_ip4": {
+        "id": 46,
+        "url": "http://9.30.141.117:32011/api/ipam/ip-addresses/46/",
+        "family": 4,
+        "address": "9.42.116.21/32"
+      },
+      "primary_ip6": null,
+      "cluster": {
+        "id": 3,
+        "url": "http://9.30.141.117:32011/api/virtualization/clusters/3/",
+        "name": "Overcloud"
+      },
+      "virtual_chassis": null,
+      "vc_position": null,
+      "vc_priority": null,
+      "comments": "",
+      "local_context_data": null,
+      "tags": [],
+      "custom_fields": {
+        "compute_name": "compute_name_dell3",
+        "firmware_name": "firmware_name"
+      },
+      "config_context": {
+        "overcloud_network_environment": {
+          "IPMINetwork": {
+            "mtu": "1500",
+            "cidr": "192.168.23.0/24",
+            "vlanId": "2023",
+            "gateway": "192.168.23.1",
+            "subnetIpEnd": "192.168.23.25",
+            "subnetIpStart": "192.168.23.5"
+          },
+          "TenantNetwork": {
+            "mtu": "1500",
+            "cidr": "192.168.23.0/24",
+            "vlanId": "2023",
+            "gateway": "192.168.23.1",
+            "subnetIpEnd": "192.168.23.25",
+            "subnetIpStart": "192.168.23.5"
+          },
+          "StorageNetwork": {
+            "mtu": "1500",
+            "cidr": "192.168.21.0/24",
+            "vlanId": "2021",
+            "gateway": "192.168.21.1",
+            "subnetIpEnd": "192.168.21.25",
+            "subnetIpStart": "192.168.21.5"
+          },
+          "ExternalNetwork": {
+            "mtu": "1500",
+            "cidr": "9.42.116.0/24",
+            "vlanId": "901",
+            "gateway": "9.42.116.1",
+            "subnetIpEnd": "9.42.116.62",
+            "subnetIpStart": "9.42.116.58"
+          },
+          "InternalNetwork": {
+            "mtu": "1500",
+            "cidr": "192.168.22.0/24",
+            "vlanId": "2022",
+            "gateway": "192.168.22.1",
+            "subnetIpEnd": "192.168.22.25",
+            "subnetIpStart": "192.168.22.5"
+          },
+          "NeutronNetworkType": "flat,vlan",
+          "ProvisioningNetwork": {
+            "mtu": "1500",
+            "cidr": "192.168.25.0/24",
+            "vlanId": "2025",
+            "gateway": "192.168.25.1",
+            "subnetIpEnd": "192.168.25.25",
+            "subnetIpStart": "192.168.25.5"
+          },
+          "PublicVirtualFixedIPs": "9.42.116.109",
+          "UndercloudControlplane": {
+            "cidr": "192.168.10.0/24",
+            "gateway": "192.168.10.1"
+          },
+          "NeutronNetworkVLANRanges": "sriov1:2:900,provider:2025:2030"
+        },
+        "overcloud_sriov_network_environment": {
+          "MinCPU": "<min cpu cores needed for this compute type>",
+          "MinDisk": "<min disk size in gb needed for this compute type>",
+          "MinMemory": "<min memory in mb needed for this compute type>",
+          "KernelArgs": {
+            "isolcpus": "1-9,11-19,21-29,31-39",
+            "hugepages": "350",
+            "hugepagesz": "1G"
+          },
+          "IsolCpusList": "1-9,11-19,21-29,31-39",
+          "NovaVcpuPinSet": "1-9,11-19,21-29,31-39",
+          "NovaPCIPassthrough": [
+            {
+              "device": "ens2f1",
+              "trusted": "true",
+              "physical_network": "sriov1"
+            }
+          ],
+          "NovaReservedHostMemory": "4096",
+          "NovaComputeCpuSharedSet": "0,10,20,30"
+        },
+        "overcloud_sriov_network_isolation_template": {
+          "mtu": "1500",
+          "interface": [
+            {
+              "mtu": "1500",
+              "name": "ens2f1",
+              "hotplug": "true",
+              "defroute": "false",
+              "use_dhcp": "false",
+              "nm_controlled": "yes"
+            },
+            {
+              "mtu": "9000",
+              "name": "",
+              "hotplug": "true",
+              "defroute": "false",
+              "use_dhcp": "false",
+              "nm_controlled": "yes"
+            },
+            {
+              "mtu": "9000",
+              "name": "",
+              "hotplug": "true",
+              "defroute": "false",
+              "use_dhcp": "false",
+              "nm_controlled": "yes"
+            },
+            {
+              "mtu": "9000",
+              "name": "",
+              "hotplug": "true",
+              "defroute": "false",
+              "use_dhcp": "false",
+              "nm_controlled": "yes"
+            }
+          ],
+          "linux_bond": {
+            "interface": [
+              {
+                "name": "ens2f1"
+              },
+              {
+                "name": "ens3f1"
+              }
+            ]
+          },
+          "network_config_interface_name": "ens3f1"
+        }
+      },
+      "created": "2020-09-10",
+      "last_updated": "2020-11-02T03:41:13.910038Z"
+    },
+    {
+      "id": 18,
+      "name": "Telco-Dell3-PERC H730P-RaidController",
+      "display_name": "Telco-Dell3-PERC H730P-RaidController",
+      "device_type": {
+        "id": 6,
+        "url": "http://9.30.141.117:32011/api/dcim/device-types/6/",
+        "manufacturer": {
+          "id": 2,
+          "url": "http://9.30.141.117:32011/api/dcim/manufacturers/2/",
+          "name": "DELL",
+          "slug": "dell"
+        },
+        "model": "PowerEdge RAID Controller H730P",
+        "slug": "perc-h730p-raidcontroller",
+        "display_name": "DELL PowerEdge RAID Controller H730P"
+      },
+      "device_role": {
+        "id": 16,
+        "url": "http://9.30.141.117:32011/api/dcim/device-roles/16/",
+        "name": "Raid Controller",
+        "slug": "raid-controller"
+      },
+      "tenant": null,
+      "platform": null,
+      "serial": "Embedded",
+      "asset_tag": null,
+      "site": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/sites/2/",
+        "name": "RTP",
+        "slug": "RTP"
+      },
+      "rack": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/racks/2/",
+        "name": "Rack1",
+        "display_name": "Rack1"
+      },
+      "position": null,
+      "face": null,
+      "parent_device": {
+        "id": 9,
+        "url": "http://9.30.141.117:32011/api/dcim/devices/9/",
+        "name": "Telco-Dell3",
+        "display_name": "Telco-Dell3",
+        "device_bay": {
+          "id": 13,
+          "url": "http://9.30.141.117:32011/api/dcim/device-bays/13/",
+          "device": {
+            "id": 9,
+            "url": "http://9.30.141.117:32011/api/dcim/devices/9/",
+            "name": "Telco-Dell3",
+            "display_name": "Telco-Dell3"
+          },
+          "name": "Slot1"
+        }
+      },
+      "status": {
+        "value": "active",
+        "label": "Active",
+        "id": 1
+      },
+      "primary_ip": null,
+      "primary_ip4": null,
+      "primary_ip6": null,
+      "cluster": null,
+      "virtual_chassis": null,
+      "vc_position": null,
+      "vc_priority": null,
+      "comments": "",
+      "local_context_data": null,
+      "tags": [],
+      "custom_fields": {
+        "compute_name": "compute_name_Telco_Dell3_PERC",
+        "firmware_name": "firmware_name_Telco_Dell3_PERC"
+      },
+      "config_context": {
+        "logical_disks": [
+          {
+            "disk_name": "OS",
+            "raid_type": "RAID 1",
+            "physical_disk_ids": "[0,1]",
+            "num_physical_disks": "2"
+          }
+        ],
+        "raid_controller": "RAID.Integrated.1-1",
+        "delete_existing_disks": "False"
+      },
+      "created": "2020-09-10",
+      "last_updated": "2020-11-02T03:41:13.926753Z"
+    },
+    {
+      "id": 10,
+      "name": "Telco-Dell4",
+      "display_name": "Telco-Dell4",
+      "device_type": {
+        "id": 3,
+        "url": "http://9.30.141.117:32011/api/dcim/device-types/3/",
+        "manufacturer": {
+          "id": 2,
+          "url": "http://9.30.141.117:32011/api/dcim/manufacturers/2/",
+          "name": "DELL",
+          "slug": "dell"
+        },
+        "model": "PowerEdge OEM R640 XL",
+        "slug": "idrac-dell",
+        "display_name": "DELL PowerEdge OEM R640 XL"
+      },
+      "device_role": {
+        "id": 23,
+        "url": "http://9.30.141.117:32011/api/dcim/device-roles/23/",
+        "name": "Unused Compute",
+        "slug": "unused-compute"
+      },
+      "tenant": null,
+      "platform": null,
+      "serial": "",
+      "asset_tag": null,
+      "site": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/sites/2/",
+        "name": "RTP",
+        "slug": "RTP"
+      },
+      "rack": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/racks/2/",
+        "name": "Rack1",
+        "display_name": "Rack1"
+      },
+      "position": 5,
+      "face": {
+        "value": "front",
+        "label": "Front",
+        "id": 0
+      },
+      "parent_device": null,
+      "status": {
+        "value": "active",
+        "label": "Active",
+        "id": 1
+      },
+      "primary_ip": {
+        "id": 47,
+        "url": "http://9.30.141.117:32011/api/ipam/ip-addresses/47/",
+        "family": 4,
+        "address": "9.42.116.22/24"
+      },
+      "primary_ip4": {
+        "id": 47,
+        "url": "http://9.30.141.117:32011/api/ipam/ip-addresses/47/",
+        "family": 4,
+        "address": "9.42.116.22/24"
+      },
+      "primary_ip6": null,
+      "cluster": null,
+      "virtual_chassis": null,
+      "vc_position": null,
+      "vc_priority": null,
+      "comments": "",
+      "local_context_data": null,
+      "tags": [],
+      "custom_fields": {
+        "compute_name": "compute_name_dell4",
+        "firmware_name": "firmware_name"
+      },
+      "config_context": {},
+      "created": "2020-09-10",
+      "last_updated": "2020-10-01T05:46:37.944644Z"
+    },
+    {
+      "id": 19,
+      "name": "Telco-Dell4-PERC H730P-RaidController",
+      "display_name": "Telco-Dell4-PERC H730P-RaidController",
+      "device_type": {
+        "id": 6,
+        "url": "http://9.30.141.117:32011/api/dcim/device-types/6/",
+        "manufacturer": {
+          "id": 2,
+          "url": "http://9.30.141.117:32011/api/dcim/manufacturers/2/",
+          "name": "DELL",
+          "slug": "dell"
+        },
+        "model": "PowerEdge RAID Controller H730P",
+        "slug": "perc-h730p-raidcontroller",
+        "display_name": "DELL PowerEdge RAID Controller H730P"
+      },
+      "device_role": {
+        "id": 16,
+        "url": "http://9.30.141.117:32011/api/dcim/device-roles/16/",
+        "name": "Raid Controller",
+        "slug": "raid-controller"
+      },
+      "tenant": null,
+      "platform": null,
+      "serial": "Embedded",
+      "asset_tag": null,
+      "site": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/sites/2/",
+        "name": "RTP",
+        "slug": "RTP"
+      },
+      "rack": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/racks/2/",
+        "name": "Rack1",
+        "display_name": "Rack1"
+      },
+      "position": null,
+      "face": null,
+      "parent_device": {
+        "id": 10,
+        "url": "http://9.30.141.117:32011/api/dcim/devices/10/",
+        "name": "Telco-Dell4",
+        "display_name": "Telco-Dell4",
+        "device_bay": {
+          "id": 14,
+          "url": "http://9.30.141.117:32011/api/dcim/device-bays/14/",
+          "device": {
+            "id": 10,
+            "url": "http://9.30.141.117:32011/api/dcim/devices/10/",
+            "name": "Telco-Dell4",
+            "display_name": "Telco-Dell4"
+          },
+          "name": "Slot1"
+        }
+      },
+      "status": {
+        "value": "active",
+        "label": "Active",
+        "id": 1
+      },
+      "primary_ip": null,
+      "primary_ip4": null,
+      "primary_ip6": null,
+      "cluster": null,
+      "virtual_chassis": null,
+      "vc_position": null,
+      "vc_priority": null,
+      "comments": "",
+      "local_context_data": null,
+      "tags": [],
+      "custom_fields": {
+        "compute_name": "compute_name_Telco_Dell4_PERC",
+        "firmware_name": "firmware_name_Telco_Dell4_PERC"
+      },
+      "config_context": {
+        "logical_disks": [
+          {
+            "disk_name": "OS",
+            "raid_type": "RAID 1",
+            "physical_disk_ids": "[0,1]",
+            "num_physical_disks": "2"
+          }
+        ],
+        "raid_controller": "RAID.Integrated.1-1",
+        "delete_existing_disks": "False"
+      },
+      "created": "2020-09-10",
+      "last_updated": "2020-10-28T10:10:41.761826Z"
+    },
+    {
+      "id": 11,
+      "name": "Telco-Dell5",
+      "display_name": "Telco-Dell5",
+      "device_type": {
+        "id": 3,
+        "url": "http://9.30.141.117:32011/api/dcim/device-types/3/",
+        "manufacturer": {
+          "id": 2,
+          "url": "http://9.30.141.117:32011/api/dcim/manufacturers/2/",
+          "name": "DELL",
+          "slug": "dell"
+        },
+        "model": "PowerEdge OEM R640 XL",
+        "slug": "idrac-dell",
+        "display_name": "DELL PowerEdge OEM R640 XL"
+      },
+      "device_role": {
+        "id": 8,
+        "url": "http://9.30.141.117:32011/api/dcim/device-roles/8/",
+        "name": "Controller",
+        "slug": "controller"
+      },
+      "tenant": null,
+      "platform": {
+        "id": 1,
+        "url": "http://9.30.141.117:32011/api/dcim/platforms/1/",
+        "name": "x86_64",
+        "slug": "x86_64"
+      },
+      "serial": "123456",
+      "asset_tag": null,
+      "site": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/sites/2/",
+        "name": "RTP",
+        "slug": "RTP"
+      },
+      "rack": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/racks/2/",
+        "name": "Rack1",
+        "display_name": "Rack1"
+      },
+      "position": 6,
+      "face": {
+        "value": "front",
+        "label": "Front",
+        "id": 0
+      },
+      "parent_device": null,
+      "status": {
+        "value": "active",
+        "label": "Active",
+        "id": 1
+      },
+      "primary_ip": {
+        "id": 57,
+        "url": "http://9.30.141.117:32011/api/ipam/ip-addresses/57/",
+        "family": 4,
+        "address": "9.42.116.39/24"
+      },
+      "primary_ip4": {
+        "id": 57,
+        "url": "http://9.30.141.117:32011/api/ipam/ip-addresses/57/",
+        "family": 4,
+        "address": "9.42.116.39/24"
+      },
+      "primary_ip6": null,
+      "cluster": null,
+      "virtual_chassis": null,
+      "vc_position": null,
+      "vc_priority": null,
+      "comments": "",
+      "local_context_data": null,
+      "tags": [],
+      "custom_fields": {
+        "compute_name": "compute_name_dell5",
+        "firmware_name": "firmware_name"
+      },
+      "config_context": {
+        "controller_template": {
+          "mtu": "1500",
+          "linux_bond_1": {
+            "interface": [
+              {
+                "name": "ens2f1"
+              },
+              {
+                "name": "ens3f1"
+              }
+            ]
+          },
+          "linux_bond_option": {
+            "mode": "802.3ad",
+            "miimon": "100",
+            "lacp_rate": "slow"
+          },
+          "network_config_interface_name": "ens3f1"
+        },
+        "overcloud_controller_properties": {
+          "min_cpu": "<min cpu cores needed for the controller node>",
+          "min_disk": "<min disk size in gb needed for the controller node>",
+          "min_memory": "<min memory in mb needed for the controller node>",
+          "controller_linux_bond_option": {
+            "mode": "802.3ad",
+            "miimon": "100",
+            "lacp_rate": "slow"
+          }
+        },
+        "overcloud_network_environment": {
+          "IPMINetwork": {
+            "mtu": "1500",
+            "cidr": "192.168.23.0/24",
+            "vlanId": "2023",
+            "gateway": "192.168.23.1",
+            "subnetIpEnd": "192.168.23.25",
+            "subnetIpStart": "192.168.23.5"
+          },
+          "TenantNetwork": {
+            "mtu": "1500",
+            "cidr": "192.168.23.0/24",
+            "vlanId": "2023",
+            "gateway": "192.168.23.1",
+            "subnetIpEnd": "192.168.23.25",
+            "subnetIpStart": "192.168.23.5"
+          },
+          "StorageNetwork": {
+            "mtu": "1500",
+            "cidr": "192.168.21.0/24",
+            "vlanId": "2021",
+            "gateway": "192.168.21.1",
+            "subnetIpEnd": "192.168.21.25",
+            "subnetIpStart": "192.168.21.5"
+          },
+          "ExternalNetwork": {
+            "mtu": "1500",
+            "cidr": "9.42.116.0/24",
+            "vlanId": "901",
+            "gateway": "9.42.116.1",
+            "subnetIpEnd": "9.42.116.62",
+            "subnetIpStart": "9.42.116.58"
+          },
+          "InternalNetwork": {
+            "mtu": "1500",
+            "cidr": "192.168.22.0/24",
+            "vlanId": "2022",
+            "gateway": "192.168.22.1",
+            "subnetIpEnd": "192.168.22.25",
+            "subnetIpStart": "192.168.22.5"
+          },
+          "NeutronNetworkType": "flat,vlan",
+          "ProvisioningNetwork": {
+            "mtu": "1500",
+            "cidr": "192.168.25.0/24",
+            "vlanId": "2025",
+            "gateway": "192.168.25.1",
+            "subnetIpEnd": "192.168.25.25",
+            "subnetIpStart": "192.168.25.5"
+          },
+          "PublicVirtualFixedIPs": "9.42.116.109",
+          "UndercloudControlplane": {
+            "cidr": "192.168.10.0/24",
+            "gateway": "192.168.10.1"
+          },
+          "NeutronNetworkVLANRanges": "sriov1:2:900,provider:2025:2030"
+        }
+      },
+      "created": "2020-09-10",
+      "last_updated": "2020-11-01T04:33:38.536646Z"
+    },
+    {
+      "id": 20,
+      "name": "Telco-Dell5-PERC H730P-RaidController",
+      "display_name": "Telco-Dell5-PERC H730P-RaidController",
+      "device_type": {
+        "id": 6,
+        "url": "http://9.30.141.117:32011/api/dcim/device-types/6/",
+        "manufacturer": {
+          "id": 2,
+          "url": "http://9.30.141.117:32011/api/dcim/manufacturers/2/",
+          "name": "DELL",
+          "slug": "dell"
+        },
+        "model": "PowerEdge RAID Controller H730P",
+        "slug": "perc-h730p-raidcontroller",
+        "display_name": "DELL PowerEdge RAID Controller H730P"
+      },
+      "device_role": {
+        "id": 16,
+        "url": "http://9.30.141.117:32011/api/dcim/device-roles/16/",
+        "name": "Raid Controller",
+        "slug": "raid-controller"
+      },
+      "tenant": null,
+      "platform": null,
+      "serial": "Embedded",
+      "asset_tag": null,
+      "site": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/sites/2/",
+        "name": "RTP",
+        "slug": "RTP"
+      },
+      "rack": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/racks/2/",
+        "name": "Rack1",
+        "display_name": "Rack1"
+      },
+      "position": null,
+      "face": null,
+      "parent_device": {
+        "id": 11,
+        "url": "http://9.30.141.117:32011/api/dcim/devices/11/",
+        "name": "Telco-Dell5",
+        "display_name": "Telco-Dell5",
+        "device_bay": {
+          "id": 15,
+          "url": "http://9.30.141.117:32011/api/dcim/device-bays/15/",
+          "device": {
+            "id": 11,
+            "url": "http://9.30.141.117:32011/api/dcim/devices/11/",
+            "name": "Telco-Dell5",
+            "display_name": "Telco-Dell5"
+          },
+          "name": "Slot1"
+        }
+      },
+      "status": {
+        "value": "active",
+        "label": "Active",
+        "id": 1
+      },
+      "primary_ip": null,
+      "primary_ip4": null,
+      "primary_ip6": null,
+      "cluster": null,
+      "virtual_chassis": null,
+      "vc_position": null,
+      "vc_priority": null,
+      "comments": "",
+      "local_context_data": null,
+      "tags": [],
+      "custom_fields": {
+        "compute_name": "compute_name_Telco_Dell5_PERC",
+        "firmware_name": "firmware_name_Telco_Dell5_PERC"
+      },
+      "config_context": {
+        "logical_disks": [
+          {
+            "disk_name": "OS",
+            "raid_type": "RAID 1",
+            "physical_disk_ids": "[0,1]",
+            "num_physical_disks": "2"
+          }
+        ],
+        "raid_controller": "RAID.Integrated.1-1",
+        "delete_existing_disks": "False"
+      },
+      "created": "2020-09-10",
+      "last_updated": "2020-11-01T04:33:38.551603Z"
+    },
+    {
+      "id": 12,
+      "name": "Telco-Dell6",
+      "display_name": "Telco-Dell6",
+      "device_type": {
+        "id": 3,
+        "url": "http://9.30.141.117:32011/api/dcim/device-types/3/",
+        "manufacturer": {
+          "id": 2,
+          "url": "http://9.30.141.117:32011/api/dcim/manufacturers/2/",
+          "name": "DELL",
+          "slug": "dell"
+        },
+        "model": "PowerEdge OEM R640 XL",
+        "slug": "idrac-dell",
+        "display_name": "DELL PowerEdge OEM R640 XL"
+      },
+      "device_role": {
+        "id": 1,
+        "url": "http://9.30.141.117:32011/api/dcim/device-roles/1/",
+        "name": "Ceph",
+        "slug": "ceph"
+      },
+      "tenant": null,
+      "platform": null,
+      "serial": "123456",
+      "asset_tag": null,
+      "site": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/sites/2/",
+        "name": "RTP",
+        "slug": "RTP"
+      },
+      "rack": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/racks/2/",
+        "name": "Rack1",
+        "display_name": "Rack1"
+      },
+      "position": 7,
+      "face": {
+        "value": "front",
+        "label": "Front",
+        "id": 0
+      },
+      "parent_device": null,
+      "status": {
+        "value": "active",
+        "label": "Active",
+        "id": 1
+      },
+      "primary_ip": {
+        "id": 51,
+        "url": "http://9.30.141.117:32011/api/ipam/ip-addresses/51/",
+        "family": 4,
+        "address": "9.42.116.50/32"
+      },
+      "primary_ip4": {
+        "id": 51,
+        "url": "http://9.30.141.117:32011/api/ipam/ip-addresses/51/",
+        "family": 4,
+        "address": "9.42.116.50/32"
+      },
+      "primary_ip6": null,
+      "cluster": {
+        "id": 1,
+        "url": "http://9.30.141.117:32011/api/virtualization/clusters/1/",
+        "name": "CephCluster"
+      },
+      "virtual_chassis": null,
+      "vc_position": null,
+      "vc_priority": null,
+      "comments": "",
+      "local_context_data": null,
+      "tags": [
+        "CephOsd",
+        "CephMonMgr"
+      ],
+      "custom_fields": {
+        "compute_name": "compute_name_dell6",
+        "firmware_name": "firmware_name"
+      },
+      "config_context": {
+        "os_user_name": "root",
+        "os_user_password": "password"
+      },
+      "created": "2020-09-10",
+      "last_updated": "2020-09-22T06:27:42.165180Z"
+    },
+    {
+      "id": 21,
+      "name": "Telco-Dell6-PERC H730P-RaidController",
+      "display_name": "Telco-Dell6-PERC H730P-RaidController",
+      "device_type": {
+        "id": 6,
+        "url": "http://9.30.141.117:32011/api/dcim/device-types/6/",
+        "manufacturer": {
+          "id": 2,
+          "url": "http://9.30.141.117:32011/api/dcim/manufacturers/2/",
+          "name": "DELL",
+          "slug": "dell"
+        },
+        "model": "PowerEdge RAID Controller H730P",
+        "slug": "perc-h730p-raidcontroller",
+        "display_name": "DELL PowerEdge RAID Controller H730P"
+      },
+      "device_role": {
+        "id": 16,
+        "url": "http://9.30.141.117:32011/api/dcim/device-roles/16/",
+        "name": "Raid Controller",
+        "slug": "raid-controller"
+      },
+      "tenant": null,
+      "platform": null,
+      "serial": "Embedded",
+      "asset_tag": null,
+      "site": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/sites/2/",
+        "name": "RTP",
+        "slug": "RTP"
+      },
+      "rack": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/racks/2/",
+        "name": "Rack1",
+        "display_name": "Rack1"
+      },
+      "position": null,
+      "face": null,
+      "parent_device": {
+        "id": 12,
+        "url": "http://9.30.141.117:32011/api/dcim/devices/12/",
+        "name": "Telco-Dell6",
+        "display_name": "Telco-Dell6",
+        "device_bay": {
+          "id": 16,
+          "url": "http://9.30.141.117:32011/api/dcim/device-bays/16/",
+          "device": {
+            "id": 12,
+            "url": "http://9.30.141.117:32011/api/dcim/devices/12/",
+            "name": "Telco-Dell6",
+            "display_name": "Telco-Dell6"
+          },
+          "name": "Slot1"
+        }
+      },
+      "status": {
+        "value": "active",
+        "label": "Active",
+        "id": 1
+      },
+      "primary_ip": null,
+      "primary_ip4": null,
+      "primary_ip6": null,
+      "cluster": null,
+      "virtual_chassis": null,
+      "vc_position": null,
+      "vc_priority": null,
+      "comments": "",
+      "local_context_data": null,
+      "tags": [],
+      "custom_fields": {
+        "compute_name": "compute_name_Telco_Dell6_PERC",
+        "firmware_name": "firmware_name"
+      },
+      "config_context": {
+        "logical_disks": [
+          {
+            "disk_name": "OS",
+            "raid_type": "RAID 1",
+            "physical_disk_ids": "[0,1]",
+            "num_physical_disks": "2"
+          }
+        ],
+        "raid_controller": "RAID.Integrated.1-1",
+        "delete_existing_disks": "False"
+      },
+      "created": "2020-09-10",
+      "last_updated": "2020-10-28T10:12:04.785586Z"
+    },
+    {
+      "id": 13,
+      "name": "Telco-Dell7",
+      "display_name": "Telco-Dell7",
+      "device_type": {
+        "id": 3,
+        "url": "http://9.30.141.117:32011/api/dcim/device-types/3/",
+        "manufacturer": {
+          "id": 2,
+          "url": "http://9.30.141.117:32011/api/dcim/manufacturers/2/",
+          "name": "DELL",
+          "slug": "dell"
+        },
+        "model": "PowerEdge OEM R640 XL",
+        "slug": "idrac-dell",
+        "display_name": "DELL PowerEdge OEM R640 XL"
+      },
+      "device_role": {
+        "id": 1,
+        "url": "http://9.30.141.117:32011/api/dcim/device-roles/1/",
+        "name": "Ceph",
+        "slug": "ceph"
+      },
+      "tenant": null,
+      "platform": null,
+      "serial": "123456",
+      "asset_tag": null,
+      "site": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/sites/2/",
+        "name": "RTP",
+        "slug": "RTP"
+      },
+      "rack": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/racks/2/",
+        "name": "Rack1",
+        "display_name": "Rack1"
+      },
+      "position": 8,
+      "face": {
+        "value": "front",
+        "label": "Front",
+        "id": 0
+      },
+      "parent_device": null,
+      "status": {
+        "value": "active",
+        "label": "Active",
+        "id": 1
+      },
+      "primary_ip": {
+        "id": 55,
+        "url": "http://9.30.141.117:32011/api/ipam/ip-addresses/55/",
+        "family": 4,
+        "address": "9.42.116.51/32"
+      },
+      "primary_ip4": {
+        "id": 55,
+        "url": "http://9.30.141.117:32011/api/ipam/ip-addresses/55/",
+        "family": 4,
+        "address": "9.42.116.51/32"
+      },
+      "primary_ip6": null,
+      "cluster": {
+        "id": 1,
+        "url": "http://9.30.141.117:32011/api/virtualization/clusters/1/",
+        "name": "CephCluster"
+      },
+      "virtual_chassis": null,
+      "vc_position": null,
+      "vc_priority": null,
+      "comments": "",
+      "local_context_data": null,
+      "tags": [
+        "CephOsd",
+        "CephMonMgr"
+      ],
+      "custom_fields": {
+        "compute_name": "compute_name_dell7",
+        "firmware_name": "firmware_name"
+      },
+      "config_context": {
+        "os_user_name": "root",
+        "os_user_password": "password"
+      },
+      "created": "2020-09-10",
+      "last_updated": "2020-09-22T06:28:11.320541Z"
+    },
+    {
+      "id": 22,
+      "name": "Telco-Dell7-PERC H730P-RaidController",
+      "display_name": "Telco-Dell7-PERC H730P-RaidController",
+      "device_type": {
+        "id": 6,
+        "url": "http://9.30.141.117:32011/api/dcim/device-types/6/",
+        "manufacturer": {
+          "id": 2,
+          "url": "http://9.30.141.117:32011/api/dcim/manufacturers/2/",
+          "name": "DELL",
+          "slug": "dell"
+        },
+        "model": "PowerEdge RAID Controller H730P",
+        "slug": "perc-h730p-raidcontroller",
+        "display_name": "DELL PowerEdge RAID Controller H730P"
+      },
+      "device_role": {
+        "id": 16,
+        "url": "http://9.30.141.117:32011/api/dcim/device-roles/16/",
+        "name": "Raid Controller",
+        "slug": "raid-controller"
+      },
+      "tenant": null,
+      "platform": null,
+      "serial": "Embedded",
+      "asset_tag": null,
+      "site": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/sites/2/",
+        "name": "RTP",
+        "slug": "RTP"
+      },
+      "rack": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/racks/2/",
+        "name": "Rack1",
+        "display_name": "Rack1"
+      },
+      "position": null,
+      "face": null,
+      "parent_device": {
+        "id": 13,
+        "url": "http://9.30.141.117:32011/api/dcim/devices/13/",
+        "name": "Telco-Dell7",
+        "display_name": "Telco-Dell7",
+        "device_bay": {
+          "id": 17,
+          "url": "http://9.30.141.117:32011/api/dcim/device-bays/17/",
+          "device": {
+            "id": 13,
+            "url": "http://9.30.141.117:32011/api/dcim/devices/13/",
+            "name": "Telco-Dell7",
+            "display_name": "Telco-Dell7"
+          },
+          "name": "Slot1"
+        }
+      },
+      "status": {
+        "value": "active",
+        "label": "Active",
+        "id": 1
+      },
+      "primary_ip": null,
+      "primary_ip4": null,
+      "primary_ip6": null,
+      "cluster": null,
+      "virtual_chassis": null,
+      "vc_position": null,
+      "vc_priority": null,
+      "comments": "",
+      "local_context_data": null,
+      "tags": [],
+      "custom_fields": {
+        "compute_name": "compute_name_Telco_Dell7_PERC",
+        "firmware_name": "firmware_name"
+      },
+      "config_context": {
+        "logical_disks": [
+          {
+            "disk_name": "OS",
+            "raid_type": "RAID 1",
+            "physical_disk_ids": "[0,1]",
+            "num_physical_disks": "2"
+          }
+        ],
+        "raid_controller": "RAID.Integrated.1-1",
+        "delete_existing_disks": "False"
+      },
+      "created": "2020-09-10",
+      "last_updated": "2020-10-28T10:12:17.309005Z"
+    },
+    {
+      "id": 14,
+      "name": "Telco-Dell8",
+      "display_name": "Telco-Dell8",
+      "device_type": {
+        "id": 3,
+        "url": "http://9.30.141.117:32011/api/dcim/device-types/3/",
+        "manufacturer": {
+          "id": 2,
+          "url": "http://9.30.141.117:32011/api/dcim/manufacturers/2/",
+          "name": "DELL",
+          "slug": "dell"
+        },
+        "model": "PowerEdge OEM R640 XL",
+        "slug": "idrac-dell",
+        "display_name": "DELL PowerEdge OEM R640 XL"
+      },
+      "device_role": {
+        "id": 1,
+        "url": "http://9.30.141.117:32011/api/dcim/device-roles/1/",
+        "name": "Ceph",
+        "slug": "ceph"
+      },
+      "tenant": null,
+      "platform": null,
+      "serial": "123456",
+      "asset_tag": null,
+      "site": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/sites/2/",
+        "name": "RTP",
+        "slug": "RTP"
+      },
+      "rack": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/racks/2/",
+        "name": "Rack1",
+        "display_name": "Rack1"
+      },
+      "position": 9,
+      "face": {
+        "value": "front",
+        "label": "Front",
+        "id": 0
+      },
+      "parent_device": null,
+      "status": {
+        "value": "active",
+        "label": "Active",
+        "id": 1
+      },
+      "primary_ip": {
+        "id": 53,
+        "url": "http://9.30.141.117:32011/api/ipam/ip-addresses/53/",
+        "family": 4,
+        "address": "9.42.116.52/32"
+      },
+      "primary_ip4": {
+        "id": 53,
+        "url": "http://9.30.141.117:32011/api/ipam/ip-addresses/53/",
+        "family": 4,
+        "address": "9.42.116.52/32"
+      },
+      "primary_ip6": null,
+      "cluster": {
+        "id": 1,
+        "url": "http://9.30.141.117:32011/api/virtualization/clusters/1/",
+        "name": "CephCluster"
+      },
+      "virtual_chassis": null,
+      "vc_position": null,
+      "vc_priority": null,
+      "comments": "",
+      "local_context_data": null,
+      "tags": [
+        "CephOsd",
+        "CephMonMgr"
+      ],
+      "custom_fields": {
+        "compute_name": "compute_name_dell8",
+        "firmware_name": "firmware_name"
+      },
+      "config_context": {
+        "os_user_name": "root",
+        "os_user_password": "password"
+      },
+      "created": "2020-09-10",
+      "last_updated": "2020-09-22T06:28:41.236713Z"
+    },
+    {
+      "id": 23,
+      "name": "Telco-Dell8-PERC H730P-RaidController",
+      "display_name": "Telco-Dell8-PERC H730P-RaidController",
+      "device_type": {
+        "id": 6,
+        "url": "http://9.30.141.117:32011/api/dcim/device-types/6/",
+        "manufacturer": {
+          "id": 2,
+          "url": "http://9.30.141.117:32011/api/dcim/manufacturers/2/",
+          "name": "DELL",
+          "slug": "dell"
+        },
+        "model": "PowerEdge RAID Controller H730P",
+        "slug": "perc-h730p-raidcontroller",
+        "display_name": "DELL PowerEdge RAID Controller H730P"
+      },
+      "device_role": {
+        "id": 16,
+        "url": "http://9.30.141.117:32011/api/dcim/device-roles/16/",
+        "name": "Raid Controller",
+        "slug": "raid-controller"
+      },
+      "tenant": null,
+      "platform": null,
+      "serial": "Embedded",
+      "asset_tag": null,
+      "site": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/sites/2/",
+        "name": "RTP",
+        "slug": "RTP"
+      },
+      "rack": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/racks/2/",
+        "name": "Rack1",
+        "display_name": "Rack1"
+      },
+      "position": null,
+      "face": null,
+      "parent_device": {
+        "id": 14,
+        "url": "http://9.30.141.117:32011/api/dcim/devices/14/",
+        "name": "Telco-Dell8",
+        "display_name": "Telco-Dell8",
+        "device_bay": {
+          "id": 18,
+          "url": "http://9.30.141.117:32011/api/dcim/device-bays/18/",
+          "device": {
+            "id": 14,
+            "url": "http://9.30.141.117:32011/api/dcim/devices/14/",
+            "name": "Telco-Dell8",
+            "display_name": "Telco-Dell8"
+          },
+          "name": "Slot1"
+        }
+      },
+      "status": {
+        "value": "active",
+        "label": "Active",
+        "id": 1
+      },
+      "primary_ip": null,
+      "primary_ip4": null,
+      "primary_ip6": null,
+      "cluster": null,
+      "virtual_chassis": null,
+      "vc_position": null,
+      "vc_priority": null,
+      "comments": "",
+      "local_context_data": null,
+      "tags": [],
+      "custom_fields": {
+        "compute_name": "compute_name_Telco_Dell8_PERC",
+        "firmware_name": "firmware_name"
+      },
+      "config_context": {
+        "logical_disks": [
+          {
+            "disk_name": "OS",
+            "raid_type": "RAID 1",
+            "physical_disk_ids": "[0,1]",
+            "num_physical_disks": "2"
+          }
+        ],
+        "raid_controller": "RAID.Integrated.1-1",
+        "delete_existing_disks": "False"
+      },
+      "created": "2020-09-10",
+      "last_updated": "2020-10-28T10:12:31.873628Z"
+    },
+    {
+      "id": 26,
+      "name": "test scaling1",
+      "display_name": "test scaling1",
+      "device_type": {
+        "id": 3,
+        "url": "http://9.30.141.117:32011/api/dcim/device-types/3/",
+        "manufacturer": {
+          "id": 2,
+          "url": "http://9.30.141.117:32011/api/dcim/manufacturers/2/",
+          "name": "DELL",
+          "slug": "dell"
+        },
+        "model": "PowerEdge OEM R640 XL",
+        "slug": "idrac-dell",
+        "display_name": "DELL PowerEdge OEM R640 XL"
+      },
+      "device_role": {
+        "id": 6,
+        "url": "http://9.30.141.117:32011/api/dcim/device-roles/6/",
+        "name": "Compute-SRIOV",
+        "slug": "compute-sriov"
+      },
+      "tenant": null,
+      "platform": {
+        "id": 1,
+        "url": "http://9.30.141.117:32011/api/dcim/platforms/1/",
+        "name": "x86_64",
+        "slug": "x86_64"
+      },
+      "serial": "",
+      "asset_tag": null,
+      "site": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/sites/2/",
+        "name": "RTP",
+        "slug": "RTP"
+      },
+      "rack": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/racks/2/",
+        "name": "Rack1",
+        "display_name": "Rack1"
+      },
+      "position": null,
+      "face": null,
+      "parent_device": null,
+      "status": {
+        "value": "active",
+        "label": "Active",
+        "id": 1
+      },
+      "primary_ip": {
+        "id": 16,
+        "url": "http://9.30.141.117:32011/api/ipam/ip-addresses/16/",
+        "family": 4,
+        "address": "9.42.116.58/24"
+      },
+      "primary_ip4": {
+        "id": 16,
+        "url": "http://9.30.141.117:32011/api/ipam/ip-addresses/16/",
+        "family": 4,
+        "address": "9.42.116.58/24"
+      },
+      "primary_ip6": null,
+      "cluster": null,
+      "virtual_chassis": null,
+      "vc_position": null,
+      "vc_priority": null,
+      "comments": "",
+      "local_context_data": null,
+      "tags": [],
+      "custom_fields": {
+        "compute_name": "compute_name_scaling1",
+        "firmware_name": "firmware_name"
+      },
+      "config_context": {
+        "overcloud_network_environment": {
+          "IPMINetwork": {
+            "mtu": "1500",
+            "cidr": "192.168.23.0/24",
+            "vlanId": "2023",
+            "gateway": "192.168.23.1",
+            "subnetIpEnd": "192.168.23.25",
+            "subnetIpStart": "192.168.23.5"
+          },
+          "TenantNetwork": {
+            "mtu": "1500",
+            "cidr": "192.168.23.0/24",
+            "vlanId": "2023",
+            "gateway": "192.168.23.1",
+            "subnetIpEnd": "192.168.23.25",
+            "subnetIpStart": "192.168.23.5"
+          },
+          "StorageNetwork": {
+            "mtu": "1500",
+            "cidr": "192.168.21.0/24",
+            "vlanId": "2021",
+            "gateway": "192.168.21.1",
+            "subnetIpEnd": "192.168.21.25",
+            "subnetIpStart": "192.168.21.5"
+          },
+          "ExternalNetwork": {
+            "mtu": "1500",
+            "cidr": "9.42.116.0/24",
+            "vlanId": "901",
+            "gateway": "9.42.116.1",
+            "subnetIpEnd": "9.42.116.62",
+            "subnetIpStart": "9.42.116.58"
+          },
+          "InternalNetwork": {
+            "mtu": "1500",
+            "cidr": "192.168.22.0/24",
+            "vlanId": "2022",
+            "gateway": "192.168.22.1",
+            "subnetIpEnd": "192.168.22.25",
+            "subnetIpStart": "192.168.22.5"
+          },
+          "NeutronNetworkType": "flat,vlan",
+          "ProvisioningNetwork": {
+            "mtu": "1500",
+            "cidr": "192.168.25.0/24",
+            "vlanId": "2025",
+            "gateway": "192.168.25.1",
+            "subnetIpEnd": "192.168.25.25",
+            "subnetIpStart": "192.168.25.5"
+          },
+          "PublicVirtualFixedIPs": "9.42.116.109",
+          "UndercloudControlplane": {
+            "cidr": "192.168.10.0/24",
+            "gateway": "192.168.10.1"
+          },
+          "NeutronNetworkVLANRanges": "sriov1:2:900,provider:2025:2030"
+        },
+        "overcloud_sriov_network_environment": {
+          "MinCPU": "<min cpu cores needed for this compute type>",
+          "MinDisk": "<min disk size in gb needed for this compute type>",
+          "MinMemory": "<min memory in mb needed for this compute type>",
+          "KernelArgs": {
+            "isolcpus": "1-9,11-19,21-29,31-39",
+            "hugepages": "350",
+            "hugepagesz": "1G"
+          },
+          "IsolCpusList": "1-9,11-19,21-29,31-39",
+          "NovaVcpuPinSet": "1-9,11-19,21-29,31-39",
+          "NovaPCIPassthrough": [
+            {
+              "device": "ens2f1",
+              "trusted": "true",
+              "physical_network": "sriov1"
+            }
+          ],
+          "NovaReservedHostMemory": "4096",
+          "NovaComputeCpuSharedSet": "0,10,20,30"
+        },
+        "overcloud_sriov_network_isolation_template": {
+          "mtu": "1500",
+          "interface": [
+            {
+              "mtu": "1500",
+              "name": "ens2f1",
+              "hotplug": "true",
+              "defroute": "false",
+              "use_dhcp": "false",
+              "nm_controlled": "yes"
+            },
+            {
+              "mtu": "9000",
+              "name": "",
+              "hotplug": "true",
+              "defroute": "false",
+              "use_dhcp": "false",
+              "nm_controlled": "yes"
+            },
+            {
+              "mtu": "9000",
+              "name": "",
+              "hotplug": "true",
+              "defroute": "false",
+              "use_dhcp": "false",
+              "nm_controlled": "yes"
+            },
+            {
+              "mtu": "9000",
+              "name": "",
+              "hotplug": "true",
+              "defroute": "false",
+              "use_dhcp": "false",
+              "nm_controlled": "yes"
+            }
+          ],
+          "linux_bond": {
+            "interface": [
+              {
+                "name": "ens2f1"
+              },
+              {
+                "name": "ens3f1"
+              }
+            ]
+          },
+          "network_config_interface_name": "ens3f1"
+        }
+      },
+      "created": "2020-10-27",
+      "last_updated": "2020-10-30T11:39:50.557914Z"
+    },
+    {
+      "id": 27,
+      "name": "test scaling2",
+      "display_name": "test scaling2",
+      "device_type": {
+        "id": 3,
+        "url": "http://9.30.141.117:32011/api/dcim/device-types/3/",
+        "manufacturer": {
+          "id": 2,
+          "url": "http://9.30.141.117:32011/api/dcim/manufacturers/2/",
+          "name": "DELL",
+          "slug": "dell"
+        },
+        "model": "PowerEdge OEM R640 XL",
+        "slug": "idrac-dell",
+        "display_name": "DELL PowerEdge OEM R640 XL"
+      },
+      "device_role": {
+        "id": 6,
+        "url": "http://9.30.141.117:32011/api/dcim/device-roles/6/",
+        "name": "Compute-SRIOV",
+        "slug": "compute-sriov"
+      },
+      "tenant": null,
+      "platform": {
+        "id": 1,
+        "url": "http://9.30.141.117:32011/api/dcim/platforms/1/",
+        "name": "x86_64",
+        "slug": "x86_64"
+      },
+      "serial": "",
+      "asset_tag": null,
+      "site": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/sites/2/",
+        "name": "RTP",
+        "slug": "RTP"
+      },
+      "rack": {
+        "id": 2,
+        "url": "http://9.30.141.117:32011/api/dcim/racks/2/",
+        "name": "Rack1",
+        "display_name": "Rack1"
+      },
+      "position": null,
+      "face": null,
+      "parent_device": null,
+      "status": {
+        "value": "active",
+        "label": "Active",
+        "id": 1
+      },
+      "primary_ip": {
+        "id": 17,
+        "url": "http://9.30.141.117:32011/api/ipam/ip-addresses/17/",
+        "family": 4,
+        "address": "9.42.116.59/24"
+      },
+      "primary_ip4": {
+        "id": 17,
+        "url": "http://9.30.141.117:32011/api/ipam/ip-addresses/17/",
+        "family": 4,
+        "address": "9.42.116.59/24"
+      },
+      "primary_ip6": null,
+      "cluster": null,
+      "virtual_chassis": null,
+      "vc_position": null,
+      "vc_priority": null,
+      "comments": "",
+      "local_context_data": null,
+      "tags": [],
+      "custom_fields": {
+        "compute_name": "compute_name_scaling2",
+        "firmware_name": "firmware_name"
+      },
+      "config_context": {
+        "overcloud_network_environment": {
+          "IPMINetwork": {
+            "mtu": "1500",
+            "cidr": "192.168.23.0/24",
+            "vlanId": "2023",
+            "gateway": "192.168.23.1",
+            "subnetIpEnd": "192.168.23.25",
+            "subnetIpStart": "192.168.23.5"
+          },
+          "TenantNetwork": {
+            "mtu": "1500",
+            "cidr": "192.168.23.0/24",
+            "vlanId": "2023",
+            "gateway": "192.168.23.1",
+            "subnetIpEnd": "192.168.23.25",
+            "subnetIpStart": "192.168.23.5"
+          },
+          "StorageNetwork": {
+            "mtu": "1500",
+            "cidr": "192.168.21.0/24",
+            "vlanId": "2021",
+            "gateway": "192.168.21.1",
+            "subnetIpEnd": "192.168.21.25",
+            "subnetIpStart": "192.168.21.5"
+          },
+          "ExternalNetwork": {
+            "mtu": "1500",
+            "cidr": "9.42.116.0/24",
+            "vlanId": "901",
+            "gateway": "9.42.116.1",
+            "subnetIpEnd": "9.42.116.62",
+            "subnetIpStart": "9.42.116.58"
+          },
+          "InternalNetwork": {
+            "mtu": "1500",
+            "cidr": "192.168.22.0/24",
+            "vlanId": "2022",
+            "gateway": "192.168.22.1",
+            "subnetIpEnd": "192.168.22.25",
+            "subnetIpStart": "192.168.22.5"
+          },
+          "NeutronNetworkType": "flat,vlan",
+          "ProvisioningNetwork": {
+            "mtu": "1500",
+            "cidr": "192.168.25.0/24",
+            "vlanId": "2025",
+            "gateway": "192.168.25.1",
+            "subnetIpEnd": "192.168.25.25",
+            "subnetIpStart": "192.168.25.5"
+          },
+          "PublicVirtualFixedIPs": "9.42.116.109",
+          "UndercloudControlplane": {
+            "cidr": "192.168.10.0/24",
+            "gateway": "192.168.10.1"
+          },
+          "NeutronNetworkVLANRanges": "sriov1:2:900,provider:2025:2030"
+        },
+        "overcloud_sriov_network_environment": {
+          "MinCPU": "<min cpu cores needed for this compute type>",
+          "MinDisk": "<min disk size in gb needed for this compute type>",
+          "MinMemory": "<min memory in mb needed for this compute type>",
+          "KernelArgs": {
+            "isolcpus": "1-9,11-19,21-29,31-39",
+            "hugepages": "350",
+            "hugepagesz": "1G"
+          },
+          "IsolCpusList": "1-9,11-19,21-29,31-39",
+          "NovaVcpuPinSet": "1-9,11-19,21-29,31-39",
+          "NovaPCIPassthrough": [
+            {
+              "device": "ens2f1",
+              "trusted": "true",
+              "physical_network": "sriov1"
+            }
+          ],
+          "NovaReservedHostMemory": "4096",
+          "NovaComputeCpuSharedSet": "0,10,20,30"
+        },
+        "overcloud_sriov_network_isolation_template": {
+          "mtu": "1500",
+          "interface": [
+            {
+              "mtu": "1500",
+              "name": "ens2f1",
+              "hotplug": "true",
+              "defroute": "false",
+              "use_dhcp": "false",
+              "nm_controlled": "yes"
+            },
+            {
+              "mtu": "9000",
+              "name": "",
+              "hotplug": "true",
+              "defroute": "false",
+              "use_dhcp": "false",
+              "nm_controlled": "yes"
+            },
+            {
+              "mtu": "9000",
+              "name": "",
+              "hotplug": "true",
+              "defroute": "false",
+              "use_dhcp": "false",
+              "nm_controlled": "yes"
+            },
+            {
+              "mtu": "9000",
+              "name": "",
+              "hotplug": "true",
+              "defroute": "false",
+              "use_dhcp": "false",
+              "nm_controlled": "yes"
+            }
+          ],
+          "linux_bond": {
+            "interface": [
+              {
+                "name": "ens2f1"
+              },
+              {
+                "name": "ens3f1"
+              }
+            ]
+          },
+          "network_config_interface_name": "ens3f1"
+        }
+      },
+      "created": "2020-10-27",
+      "last_updated": "2020-10-30T11:47:57.272885Z"
+    }
+  ]
+}

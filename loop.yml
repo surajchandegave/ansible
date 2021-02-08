@@ -1,0 +1,39 @@
+---
+- hosts: localhost
+  gather_facts: no
+  vars:
+    loop_var:
+      - item1
+      - item2
+  tasks:
+  - name: loop example
+    debug: msg={{item}}
+    loop:
+      - one
+      - two
+
+  - name: another loop exmp
+    debug: var=item
+    loop: "{{loop_var}}"
+
+  - name: loop with dictonary
+    debug: msg="{{item.first}} and {{item.second}}"
+    loop:
+      - first: first_value0
+        second: second_value0
+      - first : first_value1
+        second: second_value1
+
+  - name: loop with register
+    shell: "echo this is shell {{item}}"
+    loop:
+      - one
+      - two
+    register: shell_results
+
+  - name: shell_results
+    debug: var=shell_results
+   
+  - name: stdout from previous command
+    debug: msg="stdout= {{item.stdout}}"
+    loop: "{{shell_results['results']}}"

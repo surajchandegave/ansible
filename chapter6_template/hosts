@@ -1,0 +1,5 @@
+[webservers]
+9.30.188.227
+
+[workstations]
+9.30.0.108 ansible_connection=local

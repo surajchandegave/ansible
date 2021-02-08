@@ -1,0 +1,7 @@
+---
+- hosts: centos
+  become: true
+  tasks:
+  - name: debug
+    debug:
+      var: ansible_facts.lvm

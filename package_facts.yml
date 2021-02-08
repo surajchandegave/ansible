@@ -1,0 +1,10 @@
+---
+- hosts: centos
+  tasks:
+  - name: Gather package facts
+    package_facts:
+      manager: auto
+
+  - name: print package info
+    debug:
+      var: ansible_facts.packages['python-libs']

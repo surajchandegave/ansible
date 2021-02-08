@@ -1,0 +1,5 @@
+---
+# handlers file for test-role
+- name: handler from role
+  debug:
+    msg: "handler from role"

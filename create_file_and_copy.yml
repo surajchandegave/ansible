@@ -1,0 +1,23 @@
+---
+- hosts: centos
+  tasks:
+  - name: "Create file"
+    file:
+      state: touch
+      path: createremotefile
+
+  - name: "Write something in file"
+    lineinfile:
+      path: createremotefile
+      line: line written by lineinfile module
+
+  - name: "Write something again in file"
+    lineinfile:
+      path: createremotefile
+      line: line written by lineinfile module1
+
+  - name: "Copy remote file"
+    copy:
+      src: createremotefile
+      dest: createremotefile1
+      remote_src: yes

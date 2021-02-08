@@ -1,0 +1,16 @@
+[web]
+9.30.188.227
+9.30.183.121
+
+[centos]
+9.30.188.227
+
+[ubuntu]
+9.30.183.121
+
+[redhat]
+9.30.116.19
+
+#[centos:vars]
+#ansible_ssh_user=ansible
+#ansible_ssh_password=Suraj@123

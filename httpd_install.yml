@@ -1,0 +1,43 @@
+---
+- hosts: centos,ubuntu
+  become: true
+  vars:
+  - test: 1
+  tasks:
+  - name: Ensure httpd package installed {{ansible_distribution}}
+    yum:
+      name: httpd
+      state: latest
+    when: ansible_distribution == 'CentOS'
+
+  - name: Ensure httpd package installed {{ansible_distribution}}
+    apt:
+      name: apache2
+      state: present
+    when: ansible_distribution == 'Ubuntu'
+
+  - name: Copy index.html
+    copy:
+      src: index.html
+      dest: /var/www/html/index.html
+
+  - name: start httpd service on centos
+    service:
+      name: httpd
+      state: restarted
+    when: ansible_distribution == 'CentOS'
+
+  - name: start httpd service on ubuntu
+    service:
+      name: apache2
+      state: restarted
+    when: ansible_distribution == 'Ubuntu'
+  
+  - name: test variable in when
+    command: hostname
+    when: test == 1
+    register: op
+    
+  - debug: msg={{op.stdout}}
+
+  - debug: msg={{ansible_distribution}}

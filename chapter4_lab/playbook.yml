@@ -1,0 +1,85 @@
+---
+- hosts: centos
+  become: true
+  remote_user: devops
+  vars:
+    firewall_pkg: firewalld
+    web_pkg: httpd
+    web_svc: httpd
+    ssl_pkg: mod_ssl
+    python_pkg: python-passlib
+    httpdconf_src: files/httpd.conf
+    httpdconf_file: /etc/httpd/conf/httpd.conf
+    htaccess_src: files/.htaccess
+    secrets_dir: /etc/httpd/secrets
+    secrets_file: "{{ secrets_dir }}/htpasswd"
+    web_root: /var/www/html
+    web_user: guest
+  vars_files:
+  - secret_vars.yml
+  tasks:
+  - name: install firwalld and httpd
+    yum:
+      name:
+      - "{{firewall_pkg}}"
+      - "{{web_pkg}}"
+      - "{{ssl_pkg}}"
+      - "{{python_pkg}}"
+      state: latest
+
+  - name: configure web service
+    copy:
+      src: "{{httpdconf_src}}"
+      dest: "{{httpdconf_file}}"
+      owner: root
+      group: root
+      mode: 0644
+
+  - name: Create secret directory
+    file:
+      path: "{{secrets_dir}}"
+      state: directory
+      owner: apache
+      group: apache
+      mode: 0500
+
+  - name: Create secret file
+    htpasswd:
+      path: "{{secrets_file}}"
+      name: "{{web_user}}"
+      password: "{{web_pass}}"
+      owner: apache
+      group: apache
+      mode: 0400
+
+  - name: copy .htaccess
+    copy:
+      src: "{{htaccess_src}}"
+      dest: "{{web_root}}/.htaccess"
+      owner: apache
+      group: apache
+      mode: 0400
+  
+  - name: Update index.html
+    copy:
+      content: "Hostname: {{ansible_facts.fqdn}} \n IP Address: {{ansible_facts.default_ipv4.address}}"
+      dest: "{{web_root}}/index.html"
+    
+  - name: start service firewalld
+    service:
+      name: firewalld
+      state: restarted
+      enabled: true
+
+  - name: start service {{web_svc}}
+    service:
+      name: "{{web_svc}}"
+      state: restarted
+      enabled: true
+
+  - name: open port used by httpd service
+    firewalld:
+      service: https
+      permanent: yes
+      state: enabled
+

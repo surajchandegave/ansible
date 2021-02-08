@@ -1,0 +1,14 @@
+---
+- hosts: all
+  become: true
+  vars:
+    system_owner: root@ibm.com
+    users:
+      - ansible
+      - devops
+      - root
+  tasks:
+  - name: Copy motd file
+    template:
+      src: motd.j2
+      dest: /etc/motd

@@ -1,0 +1,32 @@
+---
+- hosts: centos
+  become: yes
+  vars:
+    users:
+      - username: testuser1
+        group: testgroup
+      - username: testuser2
+        group: testgroup
+      - username: testuser3
+        group: testgroup
+
+  tasks:
+  - name: create group
+    group:
+      name: testgroup
+      state: present
+
+  - name: create users in group testgroup
+    user:
+      name: "{{ item.username }}"
+      state: present
+#      password: "{{'passw0rd' | password_hash('sha512')}}"
+      group: "{{ item.group }}"
+    loop: "{{ users }}"
+
+  - name: copy ssh key to authorized_key module
+    authorized_key:
+      user: "{{ item.username }}"
+      key: "{{lookup('file', lookup('env','HOME') + '/.ssh/id_rsa.pub')}}"
+      state: absent
+    loop: "{{ users }}"

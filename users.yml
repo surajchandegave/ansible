@@ -1,0 +1,31 @@
+---
+- hosts: centos
+  become: true
+  vars:
+    users:
+    - username: user1
+      uid: 1024
+    - username: user2
+      uid: 2014
+  vars_files:
+    - password.yml
+
+  tasks:
+  - block:
+    - name: create users
+      user:
+        name: "{{item.username}}"
+        uid: "{{item.uid}}"
+        password: "{{ user_password | password_hash('sha512') }}"
+        group: wheel
+        shell: /bin/bash
+      #loop: "{{ users }}"
+      #when: item['uid'] | string | regex_search('^1')
+    
+    - name: authorized_kay
+      authorized_key:
+        user: "{{item.username}}"
+        state: present
+        key: "{{ lookup('file', lookup('env','HOME') + '/.ssh/id_rsa.pub') }}"
+    loop: "{{ users }}"
+    when: item['uid'] | string | regex_search('^1')

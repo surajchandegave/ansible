@@ -1,0 +1,47 @@
+---
+- hosts: centos
+  become: yes
+  tasks:
+  - name: "Copy file and change owner"
+    copy:
+      src: filetocopy
+      dest: copiedfile
+      owner: root
+      group: root
+
+  - name: "Copy content to file"
+    copy:
+      content: "This file is copied from ansible content"
+      dest: contentfile
+      mode: 0777
+
+  - name: "Copy content to overrite file"
+    copy:
+      content: "This file is copied from ansible content overwrite"
+      dest: contentfile
+      mode: 0777
+      force: no
+
+  - name: "Copy remote file"
+    copy:
+      remote_src: yes
+      src: copiedfile
+      dest: remotecopiedfile
+
+  - name: "Copy directory and change owner"
+    copy:
+      src: directorytocopy
+      dest: copieddirectory
+      owner: root
+      group: root
+
+  - name: "Copy directory content"
+    copy:
+      src: directorytocopy/
+      dest: ./
+
+  - name: "Remote Copy directory content"
+    copy:
+      remote_src: yes
+      src: a
+      dest: ./remotecopy

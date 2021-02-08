@@ -1,0 +1,4 @@
+---
+# defaults file for test-role
+testvar: hello
+testvar1: hello1

@@ -1,0 +1,39 @@
+---
+- name: First play install httpd and firewalld
+  hosts: centos
+  become: true
+  tasks:
+  - name: install httpd
+    yum: name=httpd state=latest
+      name:
+      - httpd
+      - firewalld
+
+  - name: install firewalld
+    yum: name=firewalld state=latest
+
+  - name: start httpd
+    service: name=httpd state=started
+
+  - name: start firewalld
+    service: name=firewalld enabled=true state=restarted
+
+  - name: open port 80
+    firewalld: port=80/tcp state=enabled
+
+  - name: update index.html
+    copy: 
+      content: Welcome to the example.com intranet!
+      dest: /var/www/html/index.html
+
+  - name: Restart httpd
+    service: name=httpd state=restarted
+
+
+- name: Second play
+  hosts: localhost
+  tasks:
+  - name: verify status code
+    uri:
+      url: http://centosnode1
+      status_code: 200

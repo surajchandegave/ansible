@@ -1,0 +1,15 @@
+---
+- hosts: centos
+  become: true
+  tasks:
+  - name: copy b;anl file
+    copy:
+      src: motd
+      dest: /etc/motd
+      force: yes
+
+  - name: replace file content
+    lineinfile:
+      line: "Welcome to DB server"
+      dest: /etc/motd
+      create: yes

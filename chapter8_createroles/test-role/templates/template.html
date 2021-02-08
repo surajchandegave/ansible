@@ -1,0 +1,5 @@
+{{ansible_facts.hostname}}
+
+{% for host in groups['centos']%}
+{{hostvars[host].ansible_facts.fqdn}}
+{% endfor %}

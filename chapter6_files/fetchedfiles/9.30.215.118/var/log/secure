@@ -1,0 +1,379 @@
+Dec  9 15:18:00 centosnode1 sshd[30802]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:00 centosnode1 sshd[30802]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:00 centosnode1 sshd[30802]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:00 centosnode1 sshd[30802]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:00 centosnode1 sshd[30802]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:00 centosnode1 sshd[30802]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:00 centosnode1 sshd[30802]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:00 centosnode1 sshd[30802]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:00 centosnode1 sshd[30802]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:00 centosnode1 sshd[30802]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:00 centosnode1 sshd[30802]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:00 centosnode1 sshd[30802]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:00 centosnode1 sshd[30802]: Accepted publickey for root from 9.30.48.247 port 21058 ssh2: RSA SHA256:x6Wip5vEOzqX+x0WTYpFtcaCvfhVSDyfeplwC9cHRU8
+Dec  9 15:18:00 centosnode1 sshd[30802]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec  9 15:18:02 centosnode1 sshd[30930]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:02 centosnode1 sshd[30930]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:02 centosnode1 sshd[30930]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:02 centosnode1 sshd[30930]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:02 centosnode1 sshd[30930]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:02 centosnode1 sshd[30930]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:02 centosnode1 sshd[30930]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:02 centosnode1 sshd[30930]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:02 centosnode1 sshd[30930]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:02 centosnode1 sshd[30930]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:02 centosnode1 sshd[30930]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:02 centosnode1 sshd[30930]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:02 centosnode1 sshd[30930]: Accepted publickey for root from 9.30.48.247 port 21456 ssh2: RSA SHA256:x6Wip5vEOzqX+x0WTYpFtcaCvfhVSDyfeplwC9cHRU8
+Dec  9 15:18:02 centosnode1 sshd[30930]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec  9 15:18:04 centosnode1 sshd[31058]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:04 centosnode1 sshd[31058]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:04 centosnode1 sshd[31058]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:04 centosnode1 sshd[31058]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:04 centosnode1 sshd[31058]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:04 centosnode1 sshd[31058]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:04 centosnode1 sshd[31058]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:04 centosnode1 sshd[31058]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:04 centosnode1 sshd[31058]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:04 centosnode1 sshd[31058]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:04 centosnode1 sshd[31058]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:04 centosnode1 sshd[31058]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:04 centosnode1 sshd[31058]: Accepted publickey for root from 9.30.48.247 port 21852 ssh2: RSA SHA256:x6Wip5vEOzqX+x0WTYpFtcaCvfhVSDyfeplwC9cHRU8
+Dec  9 15:18:04 centosnode1 sshd[31058]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec  9 15:18:09 centosnode1 sshd[31102]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:09 centosnode1 sshd[31102]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:09 centosnode1 sshd[31102]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:09 centosnode1 sshd[31102]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:09 centosnode1 sshd[31102]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:09 centosnode1 sshd[31102]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:09 centosnode1 sshd[31102]: Accepted publickey for root from 9.30.48.247 port 22854 ssh2: RSA SHA256:x6Wip5vEOzqX+x0WTYpFtcaCvfhVSDyfeplwC9cHRU8
+Dec  9 15:18:09 centosnode1 sshd[31102]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec  9 15:18:09 centosnode1 sshd[31102]: Received disconnect from 9.30.48.247 port 22854:11: disconnected by user
+Dec  9 15:18:09 centosnode1 sshd[31102]: Disconnected from 9.30.48.247 port 22854
+Dec  9 15:18:09 centosnode1 sshd[31102]: pam_unix(sshd:session): session closed for user root
+Dec  9 15:18:09 centosnode1 sshd[31110]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:09 centosnode1 sshd[31110]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:09 centosnode1 sshd[31110]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:09 centosnode1 sshd[31110]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:09 centosnode1 sshd[31110]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:09 centosnode1 sshd[31110]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:09 centosnode1 sshd[31110]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:09 centosnode1 sshd[31110]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:09 centosnode1 sshd[31110]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:09 centosnode1 sshd[31110]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:09 centosnode1 sshd[31110]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:09 centosnode1 sshd[31110]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:09 centosnode1 sshd[31110]: Accepted publickey for root from 9.30.48.247 port 22884 ssh2: RSA SHA256:x6Wip5vEOzqX+x0WTYpFtcaCvfhVSDyfeplwC9cHRU8
+Dec  9 15:18:09 centosnode1 sshd[31110]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec  9 15:18:10 centosnode1 sshd[31135]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:10 centosnode1 sshd[31135]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:10 centosnode1 sshd[31135]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:10 centosnode1 sshd[31135]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:10 centosnode1 sshd[31135]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:10 centosnode1 sshd[31135]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:10 centosnode1 sshd[31135]: Accepted publickey for root from 9.30.48.247 port 23000 ssh2: RSA SHA256:x6Wip5vEOzqX+x0WTYpFtcaCvfhVSDyfeplwC9cHRU8
+Dec  9 15:18:10 centosnode1 sshd[31135]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec  9 15:18:10 centosnode1 sshd[31135]: Received disconnect from 9.30.48.247 port 23000:11: disconnected by user
+Dec  9 15:18:10 centosnode1 sshd[31135]: Disconnected from 9.30.48.247 port 23000
+Dec  9 15:18:10 centosnode1 sshd[31135]: pam_unix(sshd:session): session closed for user root
+Dec  9 15:18:10 centosnode1 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/rpm --import /tmp/falcon-sensor.gpg
+Dec  9 15:18:10 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec  9 15:18:10 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec  9 15:18:11 centosnode1 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/rpm --install /tmp/Linux-rhel7-centos7-falcon-sensor-4.12.0-5704.el7.x86_64.rpm
+Dec  9 15:18:11 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec  9 15:18:11 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec  9 15:18:11 centosnode1 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/opt/CrowdStrike/falconctl -s --cid=20709802E00E4B4C9442CE5F8CA3E69D-9C
+Dec  9 15:18:11 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec  9 15:18:11 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec  9 15:18:11 centosnode1 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/sbin/service falcon-sensor start
+Dec  9 15:18:11 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec  9 15:18:11 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec  9 15:18:11 centosnode1 sudo:    root : TTY=unknown ; PWD=/root ; USER=root ; COMMAND=/bin/ps -ef
+Dec  9 15:18:11 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Dec  9 15:18:11 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec  9 15:18:12 centosnode1 sshd[31198]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:12 centosnode1 sshd[31198]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:12 centosnode1 sshd[31198]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:12 centosnode1 sshd[31198]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:12 centosnode1 sshd[31198]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:12 centosnode1 sshd[31198]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:12 centosnode1 sshd[31198]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:12 centosnode1 sshd[31198]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:12 centosnode1 sshd[31198]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:12 centosnode1 sshd[31198]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:12 centosnode1 sshd[31198]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:12 centosnode1 sshd[31198]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 15:18:12 centosnode1 sshd[31198]: Accepted publickey for root from 9.30.48.247 port 23456 ssh2: RSA SHA256:x6Wip5vEOzqX+x0WTYpFtcaCvfhVSDyfeplwC9cHRU8
+Dec  9 15:18:12 centosnode1 sshd[31198]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec  9 15:18:13 centosnode1 sshd[31198]: Received disconnect from 9.30.48.247 port 23456:11: PECL/ssh2 (http://pecl.php.net/packages/ssh2)
+Dec  9 15:18:13 centosnode1 sshd[31198]: Disconnected from 9.30.48.247 port 23456
+Dec  9 15:18:13 centosnode1 sshd[31198]: pam_unix(sshd:session): session closed for user root
+Dec  9 15:18:13 centosnode1 sshd[31110]: Received disconnect from 9.30.48.247 port 22884:11: PECL/ssh2 (http://pecl.php.net/packages/ssh2)
+Dec  9 15:18:13 centosnode1 sshd[31110]: Disconnected from 9.30.48.247 port 22884
+Dec  9 15:18:13 centosnode1 sshd[31058]: Received disconnect from 9.30.48.247 port 21852:11: PECL/ssh2 (http://pecl.php.net/packages/ssh2)
+Dec  9 15:18:13 centosnode1 sshd[31058]: Disconnected from 9.30.48.247 port 21852
+Dec  9 15:18:13 centosnode1 sshd[30930]: Received disconnect from 9.30.48.247 port 21456:11: PECL/ssh2 (http://pecl.php.net/packages/ssh2)
+Dec  9 15:18:13 centosnode1 sshd[30802]: Received disconnect from 9.30.48.247 port 21058:11: PECL/ssh2 (http://pecl.php.net/packages/ssh2)
+Dec  9 15:18:13 centosnode1 sshd[30930]: Disconnected from 9.30.48.247 port 21456
+Dec  9 15:18:13 centosnode1 sshd[30802]: Disconnected from 9.30.48.247 port 21058
+Dec  9 15:18:13 centosnode1 sshd[30930]: pam_unix(sshd:session): session closed for user root
+Dec  9 15:18:13 centosnode1 sshd[31110]: pam_unix(sshd:session): session closed for user root
+Dec  9 15:18:13 centosnode1 sshd[30802]: pam_unix(sshd:session): session closed for user root
+Dec  9 15:18:13 centosnode1 sshd[31058]: pam_unix(sshd:session): session closed for user root
+Dec  9 18:31:57 centosnode1 sshd[31779]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 18:31:57 centosnode1 sshd[31779]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 18:31:57 centosnode1 sshd[31779]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 18:31:57 centosnode1 sshd[31779]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 18:31:57 centosnode1 sshd[31779]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 18:31:57 centosnode1 sshd[31779]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 18:31:57 centosnode1 sshd[31779]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 18:31:57 centosnode1 sshd[31779]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 18:31:57 centosnode1 sshd[31779]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 18:31:57 centosnode1 sshd[31779]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 18:31:57 centosnode1 sshd[31779]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 18:31:57 centosnode1 sshd[31779]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 18:31:57 centosnode1 sshd[31779]: Accepted publickey for root from 9.30.48.247 port 48872 ssh2: RSA SHA256:x6Wip5vEOzqX+x0WTYpFtcaCvfhVSDyfeplwC9cHRU8
+Dec  9 18:31:57 centosnode1 sshd[31779]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec  9 18:31:59 centosnode1 sshd[31907]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 18:31:59 centosnode1 sshd[31907]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 18:31:59 centosnode1 sshd[31907]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 18:31:59 centosnode1 sshd[31907]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 18:31:59 centosnode1 sshd[31907]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 18:31:59 centosnode1 sshd[31907]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 18:31:59 centosnode1 sshd[31907]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 18:31:59 centosnode1 sshd[31907]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 18:31:59 centosnode1 sshd[31907]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 18:31:59 centosnode1 sshd[31907]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 18:31:59 centosnode1 sshd[31907]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 18:31:59 centosnode1 sshd[31907]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 18:31:59 centosnode1 sshd[31907]: Accepted publickey for root from 9.30.48.247 port 49678 ssh2: RSA SHA256:x6Wip5vEOzqX+x0WTYpFtcaCvfhVSDyfeplwC9cHRU8
+Dec  9 18:31:59 centosnode1 sshd[31907]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec  9 18:32:15 centosnode1 sshd[32100]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 18:32:15 centosnode1 sshd[32100]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 18:32:15 centosnode1 sshd[32100]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 18:32:15 centosnode1 sshd[32100]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 18:32:15 centosnode1 sshd[32100]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 18:32:15 centosnode1 sshd[32100]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 18:32:15 centosnode1 sshd[32100]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 18:32:15 centosnode1 sshd[32100]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 18:32:15 centosnode1 sshd[32100]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 18:32:15 centosnode1 sshd[32100]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 18:32:15 centosnode1 sshd[32100]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 18:32:15 centosnode1 sshd[32100]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec  9 18:32:15 centosnode1 sshd[32100]: Accepted publickey for root from 9.30.48.247 port 51976 ssh2: RSA SHA256:x6Wip5vEOzqX+x0WTYpFtcaCvfhVSDyfeplwC9cHRU8
+Dec  9 18:32:15 centosnode1 sshd[32100]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec  9 18:32:16 centosnode1 sshd[32100]: Received disconnect from 9.30.48.247 port 51976:11: PECL/ssh2 (http://pecl.php.net/packages/ssh2)
+Dec  9 18:32:16 centosnode1 sshd[32100]: Disconnected from 9.30.48.247 port 51976
+Dec  9 18:32:16 centosnode1 sshd[32100]: pam_unix(sshd:session): session closed for user root
+Dec  9 18:32:16 centosnode1 sshd[31907]: Received disconnect from 9.30.48.247 port 49678:11: PECL/ssh2 (http://pecl.php.net/packages/ssh2)
+Dec  9 18:32:16 centosnode1 sshd[31779]: Received disconnect from 9.30.48.247 port 48872:11: PECL/ssh2 (http://pecl.php.net/packages/ssh2)
+Dec  9 18:32:16 centosnode1 sshd[31907]: Disconnected from 9.30.48.247 port 49678
+Dec  9 18:32:16 centosnode1 sshd[31779]: Disconnected from 9.30.48.247 port 48872
+Dec  9 18:32:16 centosnode1 sshd[31907]: pam_unix(sshd:session): session closed for user root
+Dec  9 18:32:16 centosnode1 sshd[31779]: pam_unix(sshd:session): session closed for user root
+Dec 10 03:03:23 centosnode1 sshd[21901]: Accepted password for root from 9.204.111.119 port 52695 ssh2
+Dec 10 03:03:23 centosnode1 sshd[21901]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 10 03:13:16 centosnode1 sshd[23602]: Accepted publickey for ansible from 9.30.0.108 port 34722 ssh2: RSA SHA256:TSXfF5GQyp9HMvZktyN0WqMpH89W1iXKWqkgwsPXT/8
+Dec 10 03:13:16 centosnode1 sshd[23602]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Dec 10 03:14:55 centosnode1 sshd[23604]: Received disconnect from 9.30.0.108 port 34722:11: disconnected by user
+Dec 10 03:14:55 centosnode1 sshd[23604]: Disconnected from 9.30.0.108 port 34722
+Dec 10 03:14:55 centosnode1 sshd[23602]: pam_unix(sshd:session): session closed for user ansible
+Dec 10 03:19:29 centosnode1 sshd[25029]: Accepted publickey for ansible from 9.30.0.108 port 34724 ssh2: RSA SHA256:TSXfF5GQyp9HMvZktyN0WqMpH89W1iXKWqkgwsPXT/8
+Dec 10 03:19:29 centosnode1 sshd[25029]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Dec 10 03:21:14 centosnode1 sshd[25032]: Received disconnect from 9.30.0.108 port 34724:11: disconnected by user
+Dec 10 03:21:14 centosnode1 sshd[25032]: Disconnected from 9.30.0.108 port 34724
+Dec 10 03:21:14 centosnode1 sshd[25029]: pam_unix(sshd:session): session closed for user ansible
+Dec 10 03:26:29 centosnode1 sshd[26764]: Accepted publickey for ansible from 9.30.0.108 port 34726 ssh2: RSA SHA256:TSXfF5GQyp9HMvZktyN0WqMpH89W1iXKWqkgwsPXT/8
+Dec 10 03:26:29 centosnode1 sshd[26764]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Dec 10 03:26:29 centosnode1 sudo: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-stupckcqnljnwliywucualjzyptmlzjo; /usr/bin/python /home/ansible/.ansible/tmp/ansible-tmp-1575977189.33-225129370239742/AnsiballZ_setup.py
+Dec 10 03:26:29 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Dec 10 03:26:30 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec 10 03:26:30 centosnode1 sudo: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fxjnzqlcmjieduksylvssvalyzzgjrtf; /usr/bin/python /home/ansible/.ansible/tmp/ansible-tmp-1575977190.27-118330824701680/AnsiballZ_yum.py
+Dec 10 03:26:30 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Dec 10 03:26:31 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec 10 03:26:32 centosnode1 sudo: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-koetbhefrcnwpyhxptqagcctvnvsazdx; /usr/bin/python /home/ansible/.ansible/tmp/ansible-tmp-1575977191.93-41296835317435/AnsiballZ_yum.py
+Dec 10 03:26:32 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Dec 10 03:26:32 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec 10 03:26:33 centosnode1 sudo: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dclduqnbwmyoeklxagizkrqyxdcjwfde; /usr/bin/python /home/ansible/.ansible/tmp/ansible-tmp-1575977193.01-59278293921659/AnsiballZ_systemd.py
+Dec 10 03:26:33 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Dec 10 03:26:33 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec 10 03:26:33 centosnode1 sudo: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qvkkhdcenklqbfnlbisrajrvrdrpdgdf; /usr/bin/python /home/ansible/.ansible/tmp/ansible-tmp-1575977193.7-216835540246787/AnsiballZ_command.py
+Dec 10 03:26:33 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Dec 10 03:26:34 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec 10 03:27:34 centosnode1 sshd[26766]: Received disconnect from 9.30.0.108 port 34726:11: disconnected by user
+Dec 10 03:27:34 centosnode1 sshd[26766]: Disconnected from 9.30.0.108 port 34726
+Dec 10 03:27:34 centosnode1 sshd[26764]: pam_unix(sshd:session): session closed for user ansible
+Dec 10 03:27:52 centosnode1 sshd[27362]: Accepted publickey for ansible from 9.30.0.108 port 34728 ssh2: RSA SHA256:TSXfF5GQyp9HMvZktyN0WqMpH89W1iXKWqkgwsPXT/8
+Dec 10 03:27:52 centosnode1 sshd[27362]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Dec 10 03:27:53 centosnode1 sudo: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zdxgyqxlqwvkkibgvqeylhzeaqaorpuq; /usr/bin/python /home/ansible/.ansible/tmp/ansible-tmp-1575977272.53-247749198400512/AnsiballZ_setup.py
+Dec 10 03:27:53 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Dec 10 03:27:53 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec 10 03:27:53 centosnode1 sudo: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-pedaetvfylqmggfmscytgevoshejnpdh; /usr/bin/python /home/ansible/.ansible/tmp/ansible-tmp-1575977273.46-117681039191938/AnsiballZ_yum.py
+Dec 10 03:27:53 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Dec 10 03:27:54 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec 10 03:27:54 centosnode1 sudo: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tmlzoxnjtgehkdsrsxvztmrmytdxjlfu; /usr/bin/python /home/ansible/.ansible/tmp/ansible-tmp-1575977274.79-34869261356150/AnsiballZ_yum.py
+Dec 10 03:27:54 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Dec 10 03:27:55 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec 10 03:27:56 centosnode1 sudo: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wfeamozpjmynuevwjuxqvvvpmmjjzjvo; /usr/bin/python /home/ansible/.ansible/tmp/ansible-tmp-1575977275.83-261687146447329/AnsiballZ_systemd.py
+Dec 10 03:27:56 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Dec 10 03:27:56 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec 10 03:27:56 centosnode1 sudo: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-afzofecmdofqdornlbdeumugxfrgmmmp; /usr/bin/python /home/ansible/.ansible/tmp/ansible-tmp-1575977276.48-110840388310048/AnsiballZ_command.py
+Dec 10 03:27:56 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Dec 10 03:27:56 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec 10 03:28:56 centosnode1 sshd[27365]: Received disconnect from 9.30.0.108 port 34728:11: disconnected by user
+Dec 10 03:28:56 centosnode1 sshd[27365]: Disconnected from 9.30.0.108 port 34728
+Dec 10 03:28:56 centosnode1 sshd[27362]: pam_unix(sshd:session): session closed for user ansible
+Dec 10 03:32:09 centosnode1 sshd[28455]: Accepted publickey for ansible from 9.30.0.108 port 34730 ssh2: RSA SHA256:TSXfF5GQyp9HMvZktyN0WqMpH89W1iXKWqkgwsPXT/8
+Dec 10 03:32:09 centosnode1 sshd[28455]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Dec 10 03:32:09 centosnode1 sudo: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dbirsnrkngviuanwwpzwxyxcwfzrrfhw; /usr/bin/python /home/ansible/.ansible/tmp/ansible-tmp-1575977529.38-263875835115/AnsiballZ_setup.py
+Dec 10 03:32:09 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Dec 10 03:32:10 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec 10 03:32:10 centosnode1 sudo: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-sqgonmntmxdzdqptenbizjnsrwpcadyj; /usr/bin/python /home/ansible/.ansible/tmp/ansible-tmp-1575977530.33-198176820308259/AnsiballZ_yum.py
+Dec 10 03:32:10 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Dec 10 03:32:11 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec 10 03:32:11 centosnode1 sudo: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-sdcyrkoxiwyhyfierpplfgcuiglttkhr; /usr/bin/python /home/ansible/.ansible/tmp/ansible-tmp-1575977531.84-281363599142690/AnsiballZ_yum.py
+Dec 10 03:32:11 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Dec 10 03:32:12 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec 10 03:32:13 centosnode1 sudo: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vlxehvzipiegmfhyxbtkufrsrguqguhm; /usr/bin/python /home/ansible/.ansible/tmp/ansible-tmp-1575977532.88-198981525272828/AnsiballZ_systemd.py
+Dec 10 03:32:13 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Dec 10 03:32:13 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec 10 03:32:13 centosnode1 sudo: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qqldxhiwvazycllxvkriyseurzhhfvtk; /usr/bin/python /home/ansible/.ansible/tmp/ansible-tmp-1575977533.49-247329688418230/AnsiballZ_command.py
+Dec 10 03:32:13 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Dec 10 03:32:13 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec 10 03:33:13 centosnode1 sshd[28457]: Received disconnect from 9.30.0.108 port 34730:11: disconnected by user
+Dec 10 03:33:13 centosnode1 sshd[28457]: Disconnected from 9.30.0.108 port 34730
+Dec 10 03:33:13 centosnode1 sshd[28455]: pam_unix(sshd:session): session closed for user ansible
+Dec 10 03:33:25 centosnode1 sshd[29033]: Accepted publickey for ansible from 9.30.0.108 port 34732 ssh2: RSA SHA256:TSXfF5GQyp9HMvZktyN0WqMpH89W1iXKWqkgwsPXT/8
+Dec 10 03:33:25 centosnode1 sshd[29033]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Dec 10 03:33:26 centosnode1 sudo: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-euxgjkclmzdvugjunbwslnhtbrwrljjp; /usr/bin/python /home/ansible/.ansible/tmp/ansible-tmp-1575977605.63-244877741094268/AnsiballZ_setup.py
+Dec 10 03:33:26 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Dec 10 03:33:26 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec 10 03:33:26 centosnode1 sudo: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jadlmjqnowfjydbgeuqpjxexpwrqfcmz; /usr/bin/python /home/ansible/.ansible/tmp/ansible-tmp-1575977606.56-216795248256322/AnsiballZ_yum.py
+Dec 10 03:33:26 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Dec 10 03:33:27 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec 10 03:33:28 centosnode1 sudo: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-perehhosydkpfpftpbsirnqoadjgpoul; /usr/bin/python /home/ansible/.ansible/tmp/ansible-tmp-1575977607.87-63807684682381/AnsiballZ_yum.py
+Dec 10 03:33:28 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Dec 10 03:33:28 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec 10 03:33:29 centosnode1 sudo: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qzaxvqauoqusfaffbonvuactpolntauj; /usr/bin/python /home/ansible/.ansible/tmp/ansible-tmp-1575977608.89-133857774870275/AnsiballZ_systemd.py
+Dec 10 03:33:29 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Dec 10 03:33:29 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec 10 03:33:29 centosnode1 sudo: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vfrpqqwmhekizsnehrtncqaqcexpzszt; /usr/bin/python /home/ansible/.ansible/tmp/ansible-tmp-1575977609.53-123418427501589/AnsiballZ_command.py
+Dec 10 03:33:29 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Dec 10 03:33:29 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec 10 03:34:29 centosnode1 sshd[29036]: Received disconnect from 9.30.0.108 port 34732:11: disconnected by user
+Dec 10 03:34:29 centosnode1 sshd[29036]: Disconnected from 9.30.0.108 port 34732
+Dec 10 03:34:29 centosnode1 sshd[29033]: pam_unix(sshd:session): session closed for user ansible
+Dec 10 03:59:44 centosnode1 sshd[1479]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec 10 03:59:44 centosnode1 sshd[1479]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec 10 03:59:44 centosnode1 sshd[1479]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec 10 03:59:44 centosnode1 sshd[1479]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec 10 03:59:44 centosnode1 sshd[1479]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec 10 03:59:44 centosnode1 sshd[1479]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec 10 03:59:44 centosnode1 sshd[1479]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec 10 03:59:44 centosnode1 sshd[1479]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec 10 03:59:44 centosnode1 sshd[1479]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec 10 03:59:44 centosnode1 sshd[1479]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec 10 03:59:44 centosnode1 sshd[1479]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec 10 03:59:44 centosnode1 sshd[1479]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec 10 03:59:44 centosnode1 sshd[1479]: Accepted publickey for root from 9.30.48.247 port 43440 ssh2: RSA SHA256:x6Wip5vEOzqX+x0WTYpFtcaCvfhVSDyfeplwC9cHRU8
+Dec 10 03:59:44 centosnode1 sshd[1479]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 10 03:59:46 centosnode1 sshd[1613]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec 10 03:59:46 centosnode1 sshd[1613]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec 10 03:59:46 centosnode1 sshd[1613]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec 10 03:59:46 centosnode1 sshd[1613]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec 10 03:59:46 centosnode1 sshd[1613]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec 10 03:59:46 centosnode1 sshd[1613]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec 10 03:59:46 centosnode1 sshd[1613]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec 10 03:59:46 centosnode1 sshd[1613]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec 10 03:59:46 centosnode1 sshd[1613]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec 10 03:59:46 centosnode1 sshd[1613]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec 10 03:59:46 centosnode1 sshd[1613]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec 10 03:59:46 centosnode1 sshd[1613]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec 10 03:59:46 centosnode1 sshd[1613]: Accepted publickey for root from 9.30.48.247 port 44444 ssh2: RSA SHA256:x6Wip5vEOzqX+x0WTYpFtcaCvfhVSDyfeplwC9cHRU8
+Dec 10 03:59:46 centosnode1 sshd[1613]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 10 03:59:51 centosnode1 sshd[1778]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec 10 03:59:51 centosnode1 sshd[1778]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec 10 03:59:51 centosnode1 sshd[1778]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec 10 03:59:51 centosnode1 sshd[1778]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec 10 03:59:51 centosnode1 sshd[1778]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec 10 03:59:51 centosnode1 sshd[1778]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec 10 03:59:51 centosnode1 sshd[1778]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec 10 03:59:51 centosnode1 sshd[1778]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec 10 03:59:51 centosnode1 sshd[1778]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec 10 03:59:51 centosnode1 sshd[1778]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec 10 03:59:51 centosnode1 sshd[1778]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec 10 03:59:51 centosnode1 sshd[1778]: Authentication tried for root with correct key but not from a permitted host (host=9.30.48.247, ip=9.30.48.247).
+Dec 10 03:59:51 centosnode1 sshd[1778]: Accepted publickey for root from 9.30.48.247 port 46392 ssh2: RSA SHA256:x6Wip5vEOzqX+x0WTYpFtcaCvfhVSDyfeplwC9cHRU8
+Dec 10 03:59:51 centosnode1 sshd[1778]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 10 03:59:52 centosnode1 sshd[1778]: Received disconnect from 9.30.48.247 port 46392:11: PECL/ssh2 (http://pecl.php.net/packages/ssh2)
+Dec 10 03:59:52 centosnode1 sshd[1778]: Disconnected from 9.30.48.247 port 46392
+Dec 10 03:59:52 centosnode1 sshd[1778]: pam_unix(sshd:session): session closed for user root
+Dec 10 03:59:52 centosnode1 sshd[1613]: Received disconnect from 9.30.48.247 port 44444:11: PECL/ssh2 (http://pecl.php.net/packages/ssh2)
+Dec 10 03:59:52 centosnode1 sshd[1613]: Disconnected from 9.30.48.247 port 44444
+Dec 10 03:59:52 centosnode1 sshd[1479]: Received disconnect from 9.30.48.247 port 43440:11: PECL/ssh2 (http://pecl.php.net/packages/ssh2)
+Dec 10 03:59:52 centosnode1 sshd[1479]: Disconnected from 9.30.48.247 port 43440
+Dec 10 03:59:52 centosnode1 sshd[1479]: pam_unix(sshd:session): session closed for user root
+Dec 10 03:59:52 centosnode1 sshd[1613]: pam_unix(sshd:session): session closed for user root
+Dec 10 04:29:20 centosnode1 sshd[6801]: Accepted publickey for ansible from 9.30.0.108 port 34734 ssh2: RSA SHA256:TSXfF5GQyp9HMvZktyN0WqMpH89W1iXKWqkgwsPXT/8
+Dec 10 04:29:20 centosnode1 sshd[6801]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Dec 10 04:30:21 centosnode1 sshd[6804]: Received disconnect from 9.30.0.108 port 34734:11: disconnected by user
+Dec 10 04:30:21 centosnode1 sshd[6804]: Disconnected from 9.30.0.108 port 34734
+Dec 10 04:30:21 centosnode1 sshd[6801]: pam_unix(sshd:session): session closed for user ansible
+Dec 10 04:31:50 centosnode1 sshd[7401]: Accepted publickey for ansible from 9.30.0.108 port 34736 ssh2: RSA SHA256:TSXfF5GQyp9HMvZktyN0WqMpH89W1iXKWqkgwsPXT/8
+Dec 10 04:31:50 centosnode1 sshd[7401]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Dec 10 04:31:50 centosnode1 sudo: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wlvqvplbtykrtlcrvugcgzhqdeokodst; /usr/bin/python /home/ansible/.ansible/tmp/ansible-tmp-1575981110.28-93071389594427/AnsiballZ_setup.py
+Dec 10 04:31:50 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Dec 10 04:31:51 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec 10 04:31:51 centosnode1 sudo: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dpyfkulzmlsgnqqwbniobvdhxijjgrjo; /usr/bin/python /home/ansible/.ansible/tmp/ansible-tmp-1575981111.22-280617578108756/AnsiballZ_slurp.py
+Dec 10 04:31:51 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Dec 10 04:31:51 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec 10 04:32:51 centosnode1 sshd[7403]: Received disconnect from 9.30.0.108 port 34736:11: disconnected by user
+Dec 10 04:32:51 centosnode1 sshd[7403]: Disconnected from 9.30.0.108 port 34736
+Dec 10 04:32:51 centosnode1 sshd[7401]: pam_unix(sshd:session): session closed for user ansible
+Dec 10 04:36:15 centosnode1 sshd[8331]: Accepted publickey for ansible from 9.30.0.108 port 34738 ssh2: RSA SHA256:TSXfF5GQyp9HMvZktyN0WqMpH89W1iXKWqkgwsPXT/8
+Dec 10 04:36:15 centosnode1 sshd[8331]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Dec 10 04:36:15 centosnode1 sudo: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fzemokefzccqttwmtigumlhcxtnwshem; /usr/bin/python /home/ansible/.ansible/tmp/ansible-tmp-1575981375.32-231019453070513/AnsiballZ_setup.py
+Dec 10 04:36:15 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Dec 10 04:36:16 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec 10 04:36:16 centosnode1 sudo: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-edugluwkzfprgribldmiaxfakhdkkkxy; /usr/bin/python /home/ansible/.ansible/tmp/ansible-tmp-1575981376.25-197833749011256/AnsiballZ_slurp.py
+Dec 10 04:36:16 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Dec 10 04:36:16 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec 10 04:37:16 centosnode1 sshd[8333]: Received disconnect from 9.30.0.108 port 34738:11: disconnected by user
+Dec 10 04:37:16 centosnode1 sshd[8333]: Disconnected from 9.30.0.108 port 34738
+Dec 10 04:37:16 centosnode1 sshd[8331]: pam_unix(sshd:session): session closed for user ansible
+Dec 10 04:44:51 centosnode1 sshd[9941]: Accepted publickey for devops from 9.30.0.108 port 34740 ssh2: RSA SHA256:TSXfF5GQyp9HMvZktyN0WqMpH89W1iXKWqkgwsPXT/8
+Dec 10 04:44:51 centosnode1 sshd[9941]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Dec 10 04:44:51 centosnode1 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jedkbfuvapjxeebmzaijktsmevfcrvxo; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1575981891.17-38147086903213/AnsiballZ_setup.py
+Dec 10 04:44:51 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 10 04:44:52 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec 10 04:44:53 centosnode1 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bfxlxtdqbnjqhcfvbtntivwhhbjtbqhr; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1575981893.02-4088514639535/AnsiballZ_slurp.py
+Dec 10 04:44:53 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 10 04:44:53 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec 10 04:44:53 centosnode1 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-epsdpmvkwzmjefctwvqzuqnwlqujgdjw; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1575981893.4-147832498862212/AnsiballZ_stat.py
+Dec 10 04:44:53 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 10 04:44:53 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec 10 04:44:53 centosnode1 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vzggvntqqosjqufdfmhsbwpnxwgynchc; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1575981893.4-147832498862212/AnsiballZ_copy.py
+Dec 10 04:44:53 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 10 04:44:54 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec 10 04:45:36 centosnode1 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-daaokqafwfnilaoyynshcjdqppwwpwyr; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1575981936.34-174609116146693/AnsiballZ_setup.py
+Dec 10 04:45:36 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 10 04:45:37 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec 10 04:45:37 centosnode1 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qiocbkzrwrukgedeigsioudeiwlumiqa; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1575981937.11-209115960861745/AnsiballZ_slurp.py
+Dec 10 04:45:37 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 10 04:45:37 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec 10 04:45:37 centosnode1 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-utqydecifjqwopvzoyzdnyppifykogof; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1575981937.5-55198907937771/AnsiballZ_stat.py
+Dec 10 04:45:37 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 10 04:45:37 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec 10 04:45:38 centosnode1 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-avryoumcxnlmgujjsdvlcgvsqtvprcmc; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1575981937.5-55198907937771/AnsiballZ_copy.py
+Dec 10 04:45:38 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 10 04:45:38 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec 10 04:46:38 centosnode1 sshd[9944]: Received disconnect from 9.30.0.108 port 34740:11: disconnected by user
+Dec 10 04:46:38 centosnode1 sshd[9944]: Disconnected from 9.30.0.108 port 34740
+Dec 10 04:46:38 centosnode1 sshd[9941]: pam_unix(sshd:session): session closed for user devops
+Dec 10 04:47:49 centosnode1 sshd[10979]: Accepted publickey for devops from 9.30.0.108 port 34742 ssh2: RSA SHA256:TSXfF5GQyp9HMvZktyN0WqMpH89W1iXKWqkgwsPXT/8
+Dec 10 04:47:49 centosnode1 sshd[10979]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Dec 10 04:47:50 centosnode1 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-suottdpihymvoiimzotsaxkylsimopdm; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1575982069.52-166413820427387/AnsiballZ_setup.py
+Dec 10 04:47:50 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 10 04:47:50 centosnode1 sudo: pam_unix(sudo:session): session closed for user root
+Dec 10 04:47:50 centosnode1 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dwrxzqhbrmgybmufzpxlyhpvmcgcemyx; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1575982070.46-83679371804769/AnsiballZ_slurp.py
+Dec 10 04:47:50 centosnode1 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)

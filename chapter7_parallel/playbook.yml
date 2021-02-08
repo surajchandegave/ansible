@@ -1,0 +1,17 @@
+---
+- hosts: ubuntu,&all
+  serial: 1
+  tasks:
+    - name: debug task
+      debug: msg="This is debug task"
+      notify:
+      - Another debug task
+
+    - name: command
+      command: "echo $HOME"
+      notify:
+      - Another debug task
+
+  handlers:
+    - name: Another debug task
+      debug: msg="This is another debug task"

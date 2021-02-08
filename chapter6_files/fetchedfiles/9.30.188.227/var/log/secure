@@ -1,0 +1,492 @@
+Feb  3 22:13:08 ficentos762 sshd[3508]: pam_unix(sshd:session): session closed for user root
+Feb  3 23:10:55 ficentos762 sshd[11341]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Feb  3 23:12:25 ficentos762 polkitd[2985]: Registered Authentication Agent for unix-process:11493:19624716 (system bus name :1.1457 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb  3 23:12:25 ficentos762 polkitd[2985]: Unregistered Authentication Agent for unix-process:11493:19624716 (system bus name :1.1457, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Feb  4 00:12:14 ficentos762 polkitd[2985]: Registered Authentication Agent for unix-process:21654:19983641 (system bus name :1.1486 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb  4 00:12:28 ficentos762 polkitd[3002]: Loading rules from directory /etc/polkit-1/rules.d
+Feb  4 00:12:28 ficentos762 polkitd[3002]: Loading rules from directory /usr/share/polkit-1/rules.d
+Feb  4 00:12:28 ficentos762 polkitd[3002]: Finished loading, compiling and executing 2 rules
+Feb  4 00:12:28 ficentos762 polkitd[3002]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Feb  4 00:51:37 ficentos762 sshd[10127]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Feb  4 01:01:55 ficentos762 polkitd[3002]: Registered Authentication Agent for unix-process:11908:297335 (system bus name :1.41 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 27 23:09:32 fired72 polkitd[3016]: Loading rules from directory /etc/polkit-1/rules.d
+Feb 27 23:09:32 fired72 polkitd[3016]: Loading rules from directory /usr/share/polkit-1/rules.d
+Feb 27 23:09:32 fired72 polkitd[3016]: Finished loading, compiling and executing 2 rules
+Feb 27 23:09:32 fired72 polkitd[3016]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Feb 27 23:12:05 fired72 sshd[3931]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Feb 27 23:25:29 fired72 polkitd[3016]: Registered Authentication Agent for unix-process:6208:96680 (system bus name :1.28 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 27 23:25:43 fired72 polkitd[2980]: Loading rules from directory /etc/polkit-1/rules.d
+Feb 27 23:25:43 fired72 polkitd[2980]: Loading rules from directory /usr/share/polkit-1/rules.d
+Feb 27 23:25:43 fired72 polkitd[2980]: Finished loading, compiling and executing 2 rules
+Feb 27 23:25:43 fired72 polkitd[2980]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Feb 27 23:32:08 fired72 sshd[3805]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Feb 27 23:33:17 fired72 polkitd[2980]: Registered Authentication Agent for unix-process:3920:46002 (system bus name :1.21 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 27 23:33:17 fired72 polkitd[2980]: Unregistered Authentication Agent for unix-process:3920:46002 (system bus name :1.21, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Feb 27 23:39:57 fired72 polkitd[2980]: Registered Authentication Agent for unix-process:5080:85940 (system bus name :1.24 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jun  3 15:51:41 filinux14 polkitd[2985]: Loading rules from directory /etc/polkit-1/rules.d
+Jun  3 15:51:41 filinux14 polkitd[2985]: Loading rules from directory /usr/share/polkit-1/rules.d
+Jun  3 15:51:41 filinux14 polkitd[2985]: Finished loading, compiling and executing 2 rules
+Jun  3 15:51:41 filinux14 polkitd[2985]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Jun  3 15:56:27 filinux14 sshd[4264]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jun  3 16:01:11 filinux14 useradd[5295]: failed adding user 'dbus', exit code: 9
+Jun  3 16:01:11 filinux14 polkitd[2985]: Reloading rules
+Jun  3 16:01:11 filinux14 polkitd[2985]: Collecting garbage unconditionally...
+Jun  3 16:01:11 filinux14 polkitd[2985]: Loading rules from directory /etc/polkit-1/rules.d
+Jun  3 16:01:11 filinux14 polkitd[2985]: Loading rules from directory /usr/share/polkit-1/rules.d
+Jun  3 16:01:11 filinux14 polkitd[2985]: Finished loading, compiling and executing 2 rules
+Jun  3 16:01:11 filinux14 polkitd[2985]: Reloading rules
+Jun  3 16:01:11 filinux14 polkitd[2985]: Collecting garbage unconditionally...
+Jun  3 16:01:11 filinux14 polkitd[2985]: Loading rules from directory /etc/polkit-1/rules.d
+Jun  3 16:01:11 filinux14 polkitd[2985]: Loading rules from directory /usr/share/polkit-1/rules.d
+Jun  3 16:01:11 filinux14 polkitd[2985]: Finished loading, compiling and executing 2 rules
+Jun  3 16:01:11 filinux14 polkitd[5303]: Loading rules from directory /etc/polkit-1/rules.d
+Jun  3 16:01:11 filinux14 polkitd[5303]: Loading rules from directory /usr/share/polkit-1/rules.d
+Jun  3 16:01:11 filinux14 polkitd[5303]: Finished loading, compiling and executing 2 rules
+Jun  3 16:01:11 filinux14 polkitd[5303]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Jun  3 16:01:43 filinux14 polkitd[12672]: Loading rules from directory /etc/polkit-1/rules.d
+Jun  3 16:01:43 filinux14 polkitd[12672]: Loading rules from directory /usr/share/polkit-1/rules.d
+Jun  3 16:01:43 filinux14 polkitd[12672]: Finished loading, compiling and executing 2 rules
+Jun  3 16:01:43 filinux14 polkitd[12672]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Jun  3 16:12:04 filinux14 polkitd[12672]: Registered Authentication Agent for unix-process:3843:123469 (system bus name :1.35 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jun  3 16:12:04 filinux14 polkitd[12672]: Unregistered Authentication Agent for unix-process:3843:123469 (system bus name :1.35, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Jun  3 16:14:00 filinux14 polkitd[12672]: Registered Authentication Agent for unix-process:3883:135099 (system bus name :1.36 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jun  3 16:14:17 filinux14 polkitd[2990]: Loading rules from directory /etc/polkit-1/rules.d
+Jun  3 16:14:17 filinux14 polkitd[2990]: Loading rules from directory /usr/share/polkit-1/rules.d
+Jun  3 16:14:17 filinux14 polkitd[2990]: Finished loading, compiling and executing 2 rules
+Jun  3 16:14:17 filinux14 polkitd[2990]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Jun  3 16:17:53 filinux14 sshd[4113]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.200.32  user=root
+Jun  3 16:17:53 filinux14 sshd[4113]: pam_succeed_if(sshd:auth): requirement "uid >= 1000" not met by user "root"
+Jun  3 16:17:59 filinux14 sshd[4113]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jun  3 16:22:42 filinux14 polkitd[2990]: Registered Authentication Agent for unix-process:4956:51035 (system bus name :1.23 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jun  3 16:22:42 filinux14 polkitd[2990]: Unregistered Authentication Agent for unix-process:4956:51035 (system bus name :1.23, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Aug 20 10:52:14 ciredhat3 polkitd[2991]: Loading rules from directory /etc/polkit-1/rules.d
+Aug 20 10:52:14 ciredhat3 polkitd[2991]: Loading rules from directory /usr/share/polkit-1/rules.d
+Aug 20 10:52:14 ciredhat3 polkitd[2991]: Finished loading, compiling and executing 2 rules
+Aug 20 10:52:14 ciredhat3 polkitd[2991]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Aug 20 10:53:49 ciredhat3 sshd[3736]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Aug 20 11:05:03 ciredhat3 useradd[5090]: new group: name=fyre, GID=1000
+Aug 20 11:05:03 ciredhat3 useradd[5090]: new user: name=fyre, UID=1000, GID=1000, home=/home/fyre, shell=/bin/bash
+Aug 20 11:12:29 ciredhat3 polkitd[2991]: Registered Authentication Agent for unix-process:5534:122619 (system bus name :1.29 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Aug 20 11:12:29 ciredhat3 polkitd[2991]: Unregistered Authentication Agent for unix-process:5534:122619 (system bus name :1.29, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Aug 20 11:18:30 ciredhat3 polkitd[2991]: Registered Authentication Agent for unix-process:5875:158713 (system bus name :1.32 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Aug 20 11:18:30 ciredhat3 sshd[3736]: pam_unix(sshd:session): session closed for user root
+Nov  5 14:11:44 fiserver4 polkitd[2989]: Loading rules from directory /etc/polkit-1/rules.d
+Nov  5 14:11:44 fiserver4 polkitd[2989]: Loading rules from directory /usr/share/polkit-1/rules.d
+Nov  5 14:11:44 fiserver4 polkitd[2989]: Finished loading, compiling and executing 2 rules
+Nov  5 14:11:44 fiserver4 polkitd[2989]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Nov  5 14:11:48 fiserver4 sshd[3338]: Server listening on 0.0.0.0 port 22.
+Nov  5 14:11:48 fiserver4 sshd[3338]: Server listening on :: port 22.
+Nov  5 14:12:06 fiserver4 sshd[3538]: Accepted password for root from 172.16.200.32 port 45712 ssh2
+Nov  5 14:12:06 fiserver4 sshd[3538]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Nov  5 14:24:13 fiserver4 polkitd[2989]: Registered Authentication Agent for unix-process:4264:75678 (system bus name :1.23 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  5 14:24:13 fiserver4 polkitd[2989]: Unregistered Authentication Agent for unix-process:4264:75678 (system bus name :1.23, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Nov  5 14:24:44 fiserver4 polkitd[2989]: Registered Authentication Agent for unix-process:4326:78790 (system bus name :1.24 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  5 14:24:44 fiserver4 polkitd[2989]: Unregistered Authentication Agent for unix-process:4326:78790 (system bus name :1.24, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Nov  5 14:24:44 fiserver4 sshd[3338]: Received signal 15; terminating.
+Nov  5 14:24:59 fiserver4 polkitd[3005]: Loading rules from directory /etc/polkit-1/rules.d
+Nov  5 14:24:59 fiserver4 polkitd[3005]: Loading rules from directory /usr/share/polkit-1/rules.d
+Nov  5 14:24:59 fiserver4 polkitd[3005]: Finished loading, compiling and executing 2 rules
+Nov  5 14:24:59 fiserver4 polkitd[3005]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Nov  5 14:25:03 fiserver4 sshd[3337]: Server listening on 0.0.0.0 port 22.
+Nov  5 14:25:03 fiserver4 sshd[3337]: Server listening on :: port 22.
+Nov  5 14:25:46 fiserver4 sshd[3553]: Accepted password for root from 172.16.200.32 port 57868 ssh2
+Nov  5 14:25:46 fiserver4 sshd[3553]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Nov  5 14:31:11 fiserver4 polkitd[3005]: Registered Authentication Agent for unix-process:3847:37671 (system bus name :1.21 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov  5 14:31:11 fiserver4 sshd[3337]: Received signal 15; terminating.
+Nov  5 14:31:11 fiserver4 polkitd[3005]: Unregistered Authentication Agent for unix-process:3847:37671 (system bus name :1.21, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Dec 12 03:39:14 centosnode11 polkitd[2811]: Loading rules from directory /etc/polkit-1/rules.d
+Dec 12 03:39:14 centosnode11 polkitd[2811]: Loading rules from directory /usr/share/polkit-1/rules.d
+Dec 12 03:39:14 centosnode11 polkitd[2811]: Finished loading, compiling and executing 2 rules
+Dec 12 03:39:14 centosnode11 polkitd[2811]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Dec 12 03:39:20 centosnode11 sshd[3247]: Server listening on 0.0.0.0 port 22.
+Dec 12 03:39:20 centosnode11 sshd[3247]: Server listening on :: port 22.
+Dec 12 03:39:29 centosnode11 sshd[3434]: Accepted publickey for root from 9.30.166.9 port 54662 ssh2: RSA SHA256:7WhR/6murmfJuo1SZULEnAxbWpb1ndJRjqA/ixq/2Dg
+Dec 12 03:39:29 centosnode11 sshd[3434]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 12 03:39:29 centosnode11 sshd[3434]: Received disconnect from 9.30.166.9 port 54662:11: disconnected by user
+Dec 12 03:39:29 centosnode11 sshd[3434]: Disconnected from 9.30.166.9 port 54662
+Dec 12 03:39:29 centosnode11 sshd[3434]: pam_unix(sshd:session): session closed for user root
+Dec 12 03:39:30 centosnode11 sshd[3443]: Accepted publickey for root from 9.30.166.9 port 54718 ssh2: RSA SHA256:7WhR/6murmfJuo1SZULEnAxbWpb1ndJRjqA/ixq/2Dg
+Dec 12 03:39:30 centosnode11 sshd[3443]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 12 03:39:30 centosnode11 sshd[3443]: Received disconnect from 9.30.166.9 port 54718:11: disconnected by user
+Dec 12 03:39:30 centosnode11 sshd[3443]: Disconnected from 9.30.166.9 port 54718
+Dec 12 03:39:30 centosnode11 sshd[3443]: pam_unix(sshd:session): session closed for user root
+Dec 12 03:39:31 centosnode11 sshd[3453]: Accepted publickey for root from 9.30.166.9 port 54772 ssh2: RSA SHA256:7WhR/6murmfJuo1SZULEnAxbWpb1ndJRjqA/ixq/2Dg
+Dec 12 03:39:31 centosnode11 sshd[3453]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 12 03:39:31 centosnode11 sshd[3453]: Received disconnect from 9.30.166.9 port 54772:11: disconnected by user
+Dec 12 03:39:31 centosnode11 sshd[3453]: Disconnected from 9.30.166.9 port 54772
+Dec 12 03:39:31 centosnode11 sshd[3453]: pam_unix(sshd:session): session closed for user root
+Dec 12 03:39:31 centosnode11 sshd[3460]: Accepted publickey for root from 9.30.166.9 port 54788 ssh2: RSA SHA256:7WhR/6murmfJuo1SZULEnAxbWpb1ndJRjqA/ixq/2Dg
+Dec 12 03:39:31 centosnode11 sshd[3460]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 12 03:39:31 centosnode11 sshd[3460]: Received disconnect from 9.30.166.9 port 54788:11: disconnected by user
+Dec 12 03:39:31 centosnode11 sshd[3460]: Disconnected from 9.30.166.9 port 54788
+Dec 12 03:39:31 centosnode11 sshd[3460]: pam_unix(sshd:session): session closed for user root
+Dec 12 03:39:31 centosnode11 sshd[3470]: Accepted publickey for root from 9.30.166.9 port 54796 ssh2: RSA SHA256:7WhR/6murmfJuo1SZULEnAxbWpb1ndJRjqA/ixq/2Dg
+Dec 12 03:39:31 centosnode11 sshd[3470]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 12 03:39:31 centosnode11 sshd[3470]: Received disconnect from 9.30.166.9 port 54796:11: disconnected by user
+Dec 12 03:39:31 centosnode11 sshd[3470]: Disconnected from 9.30.166.9 port 54796
+Dec 12 03:39:31 centosnode11 sshd[3470]: pam_unix(sshd:session): session closed for user root
+Dec 12 03:39:32 centosnode11 sshd[3476]: Accepted publickey for root from 9.30.166.9 port 54798 ssh2: RSA SHA256:7WhR/6murmfJuo1SZULEnAxbWpb1ndJRjqA/ixq/2Dg
+Dec 12 03:39:32 centosnode11 sshd[3476]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 12 03:39:32 centosnode11 sshd[3476]: Received disconnect from 9.30.166.9 port 54798:11: disconnected by user
+Dec 12 03:39:32 centosnode11 sshd[3476]: Disconnected from 9.30.166.9 port 54798
+Dec 12 03:39:32 centosnode11 sshd[3476]: pam_unix(sshd:session): session closed for user root
+Dec 12 03:39:32 centosnode11 sshd[3484]: Accepted publickey for root from 9.30.166.9 port 54800 ssh2: RSA SHA256:7WhR/6murmfJuo1SZULEnAxbWpb1ndJRjqA/ixq/2Dg
+Dec 12 03:39:32 centosnode11 sshd[3484]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 12 03:39:32 centosnode11 sshd[3484]: Received disconnect from 9.30.166.9 port 54800:11: disconnected by user
+Dec 12 03:39:32 centosnode11 sshd[3484]: Disconnected from 9.30.166.9 port 54800
+Dec 12 03:39:32 centosnode11 sshd[3484]: pam_unix(sshd:session): session closed for user root
+Dec 12 03:39:33 centosnode11 sshd[3493]: Accepted publickey for root from 9.30.166.9 port 54802 ssh2: RSA SHA256:7WhR/6murmfJuo1SZULEnAxbWpb1ndJRjqA/ixq/2Dg
+Dec 12 03:39:33 centosnode11 sshd[3493]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 12 03:39:33 centosnode11 sshd[3493]: Received disconnect from 9.30.166.9 port 54802:11: disconnected by user
+Dec 12 03:39:33 centosnode11 sshd[3493]: Disconnected from 9.30.166.9 port 54802
+Dec 12 03:39:33 centosnode11 sshd[3493]: pam_unix(sshd:session): session closed for user root
+Dec 12 03:39:33 centosnode11 sshd[3502]: Accepted publickey for root from 9.30.166.9 port 54842 ssh2: RSA SHA256:7WhR/6murmfJuo1SZULEnAxbWpb1ndJRjqA/ixq/2Dg
+Dec 12 03:39:33 centosnode11 sshd[3502]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 12 03:39:33 centosnode11 sshd[3502]: Received disconnect from 9.30.166.9 port 54842:11: disconnected by user
+Dec 12 03:39:33 centosnode11 sshd[3502]: Disconnected from 9.30.166.9 port 54842
+Dec 12 03:39:33 centosnode11 sshd[3502]: pam_unix(sshd:session): session closed for user root
+Dec 12 03:39:34 centosnode11 sshd[3512]: Accepted publickey for root from 9.30.166.9 port 54860 ssh2: RSA SHA256:7WhR/6murmfJuo1SZULEnAxbWpb1ndJRjqA/ixq/2Dg
+Dec 12 03:39:34 centosnode11 sshd[3512]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 12 03:39:34 centosnode11 sshd[3512]: Received disconnect from 9.30.166.9 port 54860:11: disconnected by user
+Dec 12 03:39:34 centosnode11 sshd[3512]: Disconnected from 9.30.166.9 port 54860
+Dec 12 03:39:34 centosnode11 sshd[3512]: pam_unix(sshd:session): session closed for user root
+Dec 12 03:39:34 centosnode11 sshd[3520]: Accepted publickey for root from 9.30.166.9 port 54876 ssh2: RSA SHA256:7WhR/6murmfJuo1SZULEnAxbWpb1ndJRjqA/ixq/2Dg
+Dec 12 03:39:34 centosnode11 sshd[3520]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 12 03:39:35 centosnode11 sshd[3520]: Received disconnect from 9.30.166.9 port 54876:11: disconnected by user
+Dec 12 03:39:35 centosnode11 sshd[3520]: Disconnected from 9.30.166.9 port 54876
+Dec 12 03:39:35 centosnode11 sshd[3520]: pam_unix(sshd:session): session closed for user root
+Dec 12 03:39:35 centosnode11 sshd[3528]: Accepted publickey for root from 9.30.166.9 port 54878 ssh2: RSA SHA256:7WhR/6murmfJuo1SZULEnAxbWpb1ndJRjqA/ixq/2Dg
+Dec 12 03:39:35 centosnode11 sshd[3528]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 12 03:39:35 centosnode11 sshd[3528]: Received disconnect from 9.30.166.9 port 54878:11: disconnected by user
+Dec 12 03:39:35 centosnode11 sshd[3528]: Disconnected from 9.30.166.9 port 54878
+Dec 12 03:39:35 centosnode11 sshd[3528]: pam_unix(sshd:session): session closed for user root
+Dec 12 03:39:36 centosnode11 sshd[3537]: Accepted publickey for root from 9.30.166.9 port 54896 ssh2: RSA SHA256:7WhR/6murmfJuo1SZULEnAxbWpb1ndJRjqA/ixq/2Dg
+Dec 12 03:39:36 centosnode11 sshd[3537]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 12 03:39:36 centosnode11 sshd[3537]: Received disconnect from 9.30.166.9 port 54896:11: disconnected by user
+Dec 12 03:39:36 centosnode11 sshd[3537]: Disconnected from 9.30.166.9 port 54896
+Dec 12 03:39:36 centosnode11 sshd[3537]: pam_unix(sshd:session): session closed for user root
+Dec 12 03:39:36 centosnode11 sshd[3546]: Accepted publickey for root from 9.30.166.9 port 54964 ssh2: RSA SHA256:7WhR/6murmfJuo1SZULEnAxbWpb1ndJRjqA/ixq/2Dg
+Dec 12 03:39:36 centosnode11 sshd[3546]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 12 03:39:36 centosnode11 sshd[3546]: Received disconnect from 9.30.166.9 port 54964:11: disconnected by user
+Dec 12 03:39:36 centosnode11 sshd[3546]: Disconnected from 9.30.166.9 port 54964
+Dec 12 03:39:36 centosnode11 sshd[3546]: pam_unix(sshd:session): session closed for user root
+Dec 12 03:39:37 centosnode11 sshd[3553]: Accepted publickey for root from 9.30.166.9 port 55024 ssh2: RSA SHA256:7WhR/6murmfJuo1SZULEnAxbWpb1ndJRjqA/ixq/2Dg
+Dec 12 03:39:37 centosnode11 sshd[3553]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 12 03:39:37 centosnode11 sshd[3247]: Received signal 15; terminating.
+Dec 12 03:39:37 centosnode11 sshd[3560]: Server listening on 0.0.0.0 port 22.
+Dec 12 03:39:37 centosnode11 sshd[3560]: Server listening on :: port 22.
+Dec 12 03:39:37 centosnode11 sshd[3553]: Received disconnect from 9.30.166.9 port 55024:11: disconnected by user
+Dec 12 03:39:37 centosnode11 sshd[3553]: Disconnected from 9.30.166.9 port 55024
+Dec 12 03:39:37 centosnode11 sshd[3553]: pam_unix(sshd:session): session closed for user root
+Dec 12 03:39:37 centosnode11 sshd[3563]: Accepted publickey for root from 9.30.166.9 port 55102 ssh2: RSA SHA256:7WhR/6murmfJuo1SZULEnAxbWpb1ndJRjqA/ixq/2Dg
+Dec 12 03:39:37 centosnode11 sshd[3563]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 12 03:39:37 centosnode11 sshd[3563]: Received disconnect from 9.30.166.9 port 55102:11: disconnected by user
+Dec 12 03:39:37 centosnode11 sshd[3563]: Disconnected from 9.30.166.9 port 55102
+Dec 12 03:39:37 centosnode11 sshd[3563]: pam_unix(sshd:session): session closed for user root
+Dec 12 03:39:38 centosnode11 sshd[3571]: Accepted publickey for root from 9.30.166.9 port 55132 ssh2: RSA SHA256:7WhR/6murmfJuo1SZULEnAxbWpb1ndJRjqA/ixq/2Dg
+Dec 12 03:39:38 centosnode11 sshd[3571]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 12 03:39:38 centosnode11 useradd[3574]: failed adding user 'fyre', exit code: 9
+Dec 12 03:39:38 centosnode11 sshd[3571]: Received disconnect from 9.30.166.9 port 55132:11: disconnected by user
+Dec 12 03:39:38 centosnode11 sshd[3571]: Disconnected from 9.30.166.9 port 55132
+Dec 12 03:39:38 centosnode11 sshd[3571]: pam_unix(sshd:session): session closed for user root
+Dec 12 03:39:38 centosnode11 sshd[3579]: Accepted publickey for root from 9.30.166.9 port 55162 ssh2: RSA SHA256:7WhR/6murmfJuo1SZULEnAxbWpb1ndJRjqA/ixq/2Dg
+Dec 12 03:39:38 centosnode11 sshd[3579]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 12 03:39:38 centosnode11 sshd[3579]: Received disconnect from 9.30.166.9 port 55162:11: disconnected by user
+Dec 12 03:39:38 centosnode11 sshd[3579]: Disconnected from 9.30.166.9 port 55162
+Dec 12 03:39:38 centosnode11 sshd[3579]: pam_unix(sshd:session): session closed for user root
+Dec 12 03:39:39 centosnode11 sshd[3592]: Accepted publickey for root from 9.30.166.9 port 55186 ssh2: RSA SHA256:7WhR/6murmfJuo1SZULEnAxbWpb1ndJRjqA/ixq/2Dg
+Dec 12 03:39:39 centosnode11 sshd[3592]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 12 03:39:39 centosnode11 sshd[3592]: Received disconnect from 9.30.166.9 port 55186:11: disconnected by user
+Dec 12 03:39:39 centosnode11 sshd[3592]: Disconnected from 9.30.166.9 port 55186
+Dec 12 03:39:39 centosnode11 sshd[3592]: pam_unix(sshd:session): session closed for user root
+Dec 12 03:39:39 centosnode11 sshd[3601]: Accepted publickey for root from 9.30.166.9 port 55238 ssh2: RSA SHA256:7WhR/6murmfJuo1SZULEnAxbWpb1ndJRjqA/ixq/2Dg
+Dec 12 03:39:39 centosnode11 sshd[3601]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 12 03:39:39 centosnode11 sshd[3601]: Received disconnect from 9.30.166.9 port 55238:11: disconnected by user
+Dec 12 03:39:39 centosnode11 sshd[3601]: Disconnected from 9.30.166.9 port 55238
+Dec 12 03:39:39 centosnode11 sshd[3601]: pam_unix(sshd:session): session closed for user root
+Dec 12 03:39:39 centosnode11 sshd[3610]: Accepted publickey for root from 9.30.166.9 port 55258 ssh2: RSA SHA256:7WhR/6murmfJuo1SZULEnAxbWpb1ndJRjqA/ixq/2Dg
+Dec 12 03:39:39 centosnode11 sshd[3610]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 12 03:39:39 centosnode11 sshd[3610]: Received disconnect from 9.30.166.9 port 55258:11: disconnected by user
+Dec 12 03:39:39 centosnode11 sshd[3610]: Disconnected from 9.30.166.9 port 55258
+Dec 12 03:39:39 centosnode11 sshd[3610]: pam_unix(sshd:session): session closed for user root
+Dec 12 03:39:40 centosnode11 sshd[3619]: Accepted publickey for root from 9.30.166.9 port 55284 ssh2: RSA SHA256:7WhR/6murmfJuo1SZULEnAxbWpb1ndJRjqA/ixq/2Dg
+Dec 12 03:39:40 centosnode11 sshd[3619]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 12 03:39:40 centosnode11 sshd[3618]: Accepted publickey for root from 9.30.166.9 port 55280 ssh2: RSA SHA256:7WhR/6murmfJuo1SZULEnAxbWpb1ndJRjqA/ixq/2Dg
+Dec 12 03:39:40 centosnode11 sshd[3618]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 12 03:39:40 centosnode11 sshd[3622]: Accepted publickey for root from 9.30.166.9 port 55290 ssh2: RSA SHA256:7WhR/6murmfJuo1SZULEnAxbWpb1ndJRjqA/ixq/2Dg
+Dec 12 03:39:40 centosnode11 sshd[3622]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 12 03:39:40 centosnode11 sshd[3619]: Received disconnect from 9.30.166.9 port 55284:11: disconnected by user
+Dec 12 03:39:40 centosnode11 sshd[3619]: Disconnected from 9.30.166.9 port 55284
+Dec 12 03:39:40 centosnode11 sshd[3619]: pam_unix(sshd:session): session closed for user root
+Dec 12 03:39:40 centosnode11 sshd[3618]: Received disconnect from 9.30.166.9 port 55280:11: disconnected by user
+Dec 12 03:39:40 centosnode11 sshd[3618]: Disconnected from 9.30.166.9 port 55280
+Dec 12 03:39:40 centosnode11 sshd[3618]: pam_unix(sshd:session): session closed for user root
+Dec 12 03:39:40 centosnode11 sshd[3622]: Received disconnect from 9.30.166.9 port 55290:11: disconnected by user
+Dec 12 03:39:40 centosnode11 sshd[3622]: Disconnected from 9.30.166.9 port 55290
+Dec 12 03:39:40 centosnode11 sshd[3622]: pam_unix(sshd:session): session closed for user root
+Dec 12 03:40:55 centosnode11 sshd[3752]: Accepted password for root from 9.204.111.222 port 51629 ssh2
+Dec 12 03:40:55 centosnode11 sshd[3752]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 12 03:45:16 centosnode11 polkitd[2811]: Registered Authentication Agent for unix-process:3995:37018 (system bus name :1.78 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Dec 12 03:45:31 centosnode11 polkitd[2863]: Loading rules from directory /etc/polkit-1/rules.d
+Dec 12 03:45:31 centosnode11 polkitd[2863]: Loading rules from directory /usr/share/polkit-1/rules.d
+Dec 12 03:45:31 centosnode11 polkitd[2863]: Finished loading, compiling and executing 2 rules
+Dec 12 03:45:31 centosnode11 polkitd[2863]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Dec 12 03:45:36 centosnode11 sshd[3244]: Server listening on 0.0.0.0 port 22.
+Dec 12 03:45:36 centosnode11 sshd[3244]: Server listening on :: port 22.
+Dec 12 03:45:55 centosnode11 sshd[3438]: Accepted password for root from 9.204.111.222 port 51640 ssh2
+Dec 12 03:45:55 centosnode11 sshd[3438]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Dec 12 03:48:00 centosnode11 useradd[3565]: new group: name=ansible, GID=1001
+Dec 12 03:48:00 centosnode11 useradd[3565]: new user: name=ansible, UID=1001, GID=1001, home=/home/ansible, shell=/bin/bash
+Dec 12 03:48:15 centosnode11 passwd: pam_unix(passwd:chauthtok): password changed for ansible
+Dec 12 03:48:25 centosnode11 useradd[3595]: new group: name=devops, GID=1002
+Dec 12 03:48:25 centosnode11 useradd[3595]: new user: name=devops, UID=1002, GID=1002, home=/home/devops, shell=/bin/bash
+Dec 12 03:48:45 centosnode11 passwd: pam_unix(passwd:chauthtok): password changed for devops
+Dec 12 03:50:50 centosnode11 sshd[3726]: Connection closed by 9.30.0.108 port 45352 [preauth]
+Dec 12 03:50:50 centosnode11 sshd[3729]: Connection closed by 9.30.0.108 port 45354 [preauth]
+Dec 12 03:50:54 centosnode11 sshd[3732]: Accepted password for ansible from 9.30.0.108 port 45356 ssh2
+Dec 12 03:50:54 centosnode11 sshd[3732]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Dec 12 03:50:55 centosnode11 sshd[3740]: Received disconnect from 9.30.0.108 port 45356:11: disconnected by user
+Dec 12 03:50:55 centosnode11 sshd[3740]: Disconnected from 9.30.0.108 port 45356
+Dec 12 03:50:55 centosnode11 sshd[3732]: pam_unix(sshd:session): session closed for user ansible
+Dec 12 03:51:13 centosnode11 sshd[3769]: Connection closed by 9.30.0.108 port 45358 [preauth]
+Dec 12 03:51:13 centosnode11 sshd[3771]: Connection closed by 9.30.0.108 port 45360 [preauth]
+Dec 12 03:51:19 centosnode11 sshd[3773]: Accepted password for devops from 9.30.0.108 port 45362 ssh2
+Dec 12 03:51:19 centosnode11 sshd[3773]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Dec 12 03:51:19 centosnode11 sshd[3782]: Received disconnect from 9.30.0.108 port 45362:11: disconnected by user
+Dec 12 03:51:19 centosnode11 sshd[3782]: Disconnected from 9.30.0.108 port 45362
+Dec 12 03:51:19 centosnode11 sshd[3773]: pam_unix(sshd:session): session closed for user devops
+Dec 12 03:52:30 centosnode11 sshd[3850]: Accepted publickey for ansible from 9.30.0.108 port 45364 ssh2: RSA SHA256:TSXfF5GQyp9HMvZktyN0WqMpH89W1iXKWqkgwsPXT/8
+Dec 12 03:52:30 centosnode11 sshd[3850]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Dec 12 03:52:43 centosnode11 sshd[3854]: Received disconnect from 9.30.0.108 port 45364:11: disconnected by user
+Dec 12 03:52:43 centosnode11 sshd[3854]: Disconnected from 9.30.0.108 port 45364
+Dec 12 03:52:43 centosnode11 sshd[3850]: pam_unix(sshd:session): session closed for user ansible
+Dec 12 03:56:30 centosnode11 sshd[4072]: Accepted publickey for devops from 9.30.0.108 port 45366 ssh2: RSA SHA256:TSXfF5GQyp9HMvZktyN0WqMpH89W1iXKWqkgwsPXT/8
+Dec 12 03:56:31 centosnode11 sshd[4072]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Dec 12 03:56:31 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zoabmyafbentcvqqvogkqnqvouclygqu; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576151790.78-117691695684053/AnsiballZ_setup.py
+Dec 12 03:56:31 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 03:56:33 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 03:56:33 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-yxgyxutorszetswikamilkwkxqliobmj; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576151793.53-107783359601294/AnsiballZ_slurp.py
+Dec 12 03:56:33 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 03:56:34 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 03:56:34 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-eaoxfzjjberqzpirafgurougsqtwdnjs; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576151794.16-219738258047736/AnsiballZ_stat.py
+Dec 12 03:56:34 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 03:56:34 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 03:56:35 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ptjfjipjfemurspgtcurqxdkrwryjdkh; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576151794.16-219738258047736/AnsiballZ_copy.py
+Dec 12 03:56:35 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 03:56:35 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 03:56:35 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gsmgsmoecmynubdhqevkhyvbjruwdjzm; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576151795.48-116210156523838/AnsiballZ_file.py
+Dec 12 03:56:35 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 03:56:36 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 03:57:36 centosnode11 sshd[4076]: Received disconnect from 9.30.0.108 port 45366:11: disconnected by user
+Dec 12 03:57:36 centosnode11 sshd[4076]: Disconnected from 9.30.0.108 port 45366
+Dec 12 03:57:36 centosnode11 sshd[4072]: pam_unix(sshd:session): session closed for user devops
+Dec 12 04:01:30 centosnode11 sshd[4680]: Accepted publickey for devops from 9.30.0.108 port 45368 ssh2: RSA SHA256:TSXfF5GQyp9HMvZktyN0WqMpH89W1iXKWqkgwsPXT/8
+Dec 12 04:01:30 centosnode11 sshd[4680]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Dec 12 04:01:31 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dvmmrksmbmfuxgmbhfemntzsgphgpbzb; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576152090.34-127302132230313/AnsiballZ_setup.py
+Dec 12 04:01:31 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:01:31 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:01:32 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-szdrsvxspemygdzbhrguramjtmeejpeb; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576152092.07-208241378500885/AnsiballZ_slurp.py
+Dec 12 04:01:32 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:01:32 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:01:33 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qedolcctsilqlhypktvopfhwdbpbcrwd; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576152092.68-123852379813470/AnsiballZ_stat.py
+Dec 12 04:01:33 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:01:33 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:01:33 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qwlkmedzgzddzwdyayqyomjzkdnwstxz; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576152092.68-123852379813470/AnsiballZ_file.py
+Dec 12 04:01:33 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:01:33 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:01:34 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bfaemotcoradfnjzruqrlhtqjoutyhtd; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576152093.92-266628851979927/AnsiballZ_file.py
+Dec 12 04:01:34 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:01:34 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:01:34 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vgaqhiixpmcgaczkbyadccenakmkpzmk; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576152094.48-108968573382712/AnsiballZ_lineinfile.py
+Dec 12 04:01:34 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:01:35 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:02:35 centosnode11 sshd[4683]: Received disconnect from 9.30.0.108 port 45368:11: disconnected by user
+Dec 12 04:02:35 centosnode11 sshd[4683]: Disconnected from 9.30.0.108 port 45368
+Dec 12 04:02:35 centosnode11 sshd[4680]: pam_unix(sshd:session): session closed for user devops
+Dec 12 04:03:34 centosnode11 sshd[5169]: Accepted publickey for ansible from 9.30.0.108 port 45370 ssh2: RSA SHA256:TSXfF5GQyp9HMvZktyN0WqMpH89W1iXKWqkgwsPXT/8
+Dec 12 04:03:35 centosnode11 sshd[5169]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Dec 12 04:03:47 centosnode11 sudo: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bcboetucujshqiaarxxmbnrhiesvbtzw; /usr/bin/python /home/ansible/.ansible/tmp/ansible-tmp-1576152226.78-99356188493972/AnsiballZ_command.py
+Dec 12 04:03:47 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Dec 12 04:03:47 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:04:00 centosnode11 sudo: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ktdtcwmmbjdsgagoyuimnwwzvxbugedt; /usr/bin/python /home/ansible/.ansible/tmp/ansible-tmp-1576152239.86-215108937076252/AnsiballZ_command.py
+Dec 12 04:04:00 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Dec 12 04:04:00 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:05:00 centosnode11 sshd[5172]: Received disconnect from 9.30.0.108 port 45370:11: disconnected by user
+Dec 12 04:05:00 centosnode11 sshd[5172]: Disconnected from 9.30.0.108 port 45370
+Dec 12 04:05:00 centosnode11 sshd[5169]: pam_unix(sshd:session): session closed for user ansible
+Dec 12 04:09:16 centosnode11 sshd[5643]: Accepted publickey for devops from 9.30.0.108 port 45372 ssh2: RSA SHA256:TSXfF5GQyp9HMvZktyN0WqMpH89W1iXKWqkgwsPXT/8
+Dec 12 04:09:16 centosnode11 sshd[5643]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Dec 12 04:09:16 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qozxuipwhtfawcbiuzclkhflbrtwgoax; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576152555.94-222198557473143/AnsiballZ_setup.py
+Dec 12 04:09:16 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:09:17 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:09:17 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-uplekkbwpyfaqcercjswjllhdymbdsrt; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576152557.6-217359964271372/AnsiballZ_slurp.py
+Dec 12 04:09:17 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:09:18 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:09:18 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jevvayhvslmatcaqhyrvnopljgpsdjkl; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576152558.23-6450845282222/AnsiballZ_stat.py
+Dec 12 04:09:18 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:09:18 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:09:19 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tntqnvsvbzppbwrteubyhpzvatzqmbgg; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576152558.23-6450845282222/AnsiballZ_copy.py
+Dec 12 04:09:19 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:09:19 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:09:19 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wpiylwqxykgiciodpghlpgjlsnefbxrx; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576152559.4-42036438070941/AnsiballZ_file.py
+Dec 12 04:09:19 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:09:19 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:09:20 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vqjssbmpazdljxmopjorqovrljgusevb; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576152559.99-153624026979104/AnsiballZ_lineinfile.py
+Dec 12 04:09:20 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:09:20 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:09:20 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xvmgrgdmmlqnpxwylvnkeirkpmbzsgjz; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576152560.64-217751586189395/AnsiballZ_blockinfile.py
+Dec 12 04:09:20 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:09:21 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:10:14 centosnode11 sshd[6163]: Accepted publickey for ansible from 9.30.0.108 port 45374 ssh2: RSA SHA256:TSXfF5GQyp9HMvZktyN0WqMpH89W1iXKWqkgwsPXT/8
+Dec 12 04:10:15 centosnode11 sshd[6163]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Dec 12 04:10:15 centosnode11 sudo: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fjuivxbwffsghibogqqmrlhodauwsoea; /usr/bin/python /home/ansible/.ansible/tmp/ansible-tmp-1576152614.89-35264577410770/AnsiballZ_command.py
+Dec 12 04:10:15 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Dec 12 04:10:15 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:10:21 centosnode11 sshd[5646]: Received disconnect from 9.30.0.108 port 45372:11: disconnected by user
+Dec 12 04:10:21 centosnode11 sshd[5646]: Disconnected from 9.30.0.108 port 45372
+Dec 12 04:10:21 centosnode11 sshd[5643]: pam_unix(sshd:session): session closed for user devops
+Dec 12 04:10:42 centosnode11 sshd[6257]: Accepted publickey for devops from 9.30.0.108 port 45376 ssh2: RSA SHA256:TSXfF5GQyp9HMvZktyN0WqMpH89W1iXKWqkgwsPXT/8
+Dec 12 04:10:42 centosnode11 sshd[6257]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Dec 12 04:10:43 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-sewzkhzxantedphzcmngeruotbnidmib; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576152642.4-226879606349029/AnsiballZ_setup.py
+Dec 12 04:10:43 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:10:44 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:10:44 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vdexnkugjlrgbrniqxataqtpredxprfl; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576152644.15-261807930822240/AnsiballZ_slurp.py
+Dec 12 04:10:44 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:10:44 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:10:45 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hojcuzuberrjzyfzfayjvtfkomzagnwf; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576152644.75-104388001354144/AnsiballZ_stat.py
+Dec 12 04:10:45 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:10:45 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:10:45 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-nvrolvsxdhgregdsvpkxxnhicrultugj; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576152644.75-104388001354144/AnsiballZ_copy.py
+Dec 12 04:10:45 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:10:45 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:10:46 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jvyfmgupakijttiyvsnniibtkngpfajh; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576152645.82-195502660491421/AnsiballZ_file.py
+Dec 12 04:10:46 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:10:46 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:10:46 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mqmohpdmwpnocvtzkbbucomyxaxzikqt; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576152646.47-98928900153654/AnsiballZ_lineinfile.py
+Dec 12 04:10:46 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:10:46 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:10:47 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dfxkadcrxyhuzjexzrfmkfxfqrctzgux; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576152647.11-57178756558067/AnsiballZ_blockinfile.py
+Dec 12 04:10:47 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:10:47 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:10:56 centosnode11 sudo: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zttfmmegjyagiypqsovscysuquygzqod; /usr/bin/python /home/ansible/.ansible/tmp/ansible-tmp-1576152656.0-11780591358448/AnsiballZ_command.py
+Dec 12 04:10:56 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Dec 12 04:10:56 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:11:47 centosnode11 sshd[6260]: Received disconnect from 9.30.0.108 port 45376:11: disconnected by user
+Dec 12 04:11:47 centosnode11 sshd[6260]: Disconnected from 9.30.0.108 port 45376
+Dec 12 04:11:47 centosnode11 sshd[6257]: pam_unix(sshd:session): session closed for user devops
+Dec 12 04:11:56 centosnode11 sshd[6167]: Received disconnect from 9.30.0.108 port 45374:11: disconnected by user
+Dec 12 04:11:56 centosnode11 sshd[6167]: Disconnected from 9.30.0.108 port 45374
+Dec 12 04:11:56 centosnode11 sshd[6163]: pam_unix(sshd:session): session closed for user ansible
+Dec 12 04:14:56 centosnode11 sshd[6995]: Accepted publickey for ansible from 9.30.0.108 port 45378 ssh2: RSA SHA256:TSXfF5GQyp9HMvZktyN0WqMpH89W1iXKWqkgwsPXT/8
+Dec 12 04:14:56 centosnode11 sshd[6995]: pam_unix(sshd:session): session opened for user ansible by (uid=0)
+Dec 12 04:14:57 centosnode11 sudo: ansible : TTY=pts/1 ; PWD=/home/ansible ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gpxywwualayhmcdcvekcczkhefyqildp; /usr/bin/python /home/ansible/.ansible/tmp/ansible-tmp-1576152896.55-231007615366635/AnsiballZ_command.py
+Dec 12 04:14:57 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by ansible(uid=0)
+Dec 12 04:14:57 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:15:08 centosnode11 sshd[7079]: Accepted publickey for devops from 9.30.0.108 port 45380 ssh2: RSA SHA256:TSXfF5GQyp9HMvZktyN0WqMpH89W1iXKWqkgwsPXT/8
+Dec 12 04:15:08 centosnode11 sshd[7079]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Dec 12 04:15:09 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ssoxmsffrqrdhloarhuzoweepxinkaqb; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576152908.46-23590428857791/AnsiballZ_setup.py
+Dec 12 04:15:09 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:15:10 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:15:10 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gtygbodsakrlbcolzwquactjluqrxjbv; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576152910.17-62446150830757/AnsiballZ_slurp.py
+Dec 12 04:15:10 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:15:10 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:15:11 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lhkmtqlqsxwhfrgznmoyamjbspwkqdoh; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576152910.85-2361116988309/AnsiballZ_stat.py
+Dec 12 04:15:11 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:15:11 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:15:11 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-omkoucoojwklfglmyxjczxkybukniooo; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576152910.85-2361116988309/AnsiballZ_copy.py
+Dec 12 04:15:11 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:15:11 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:15:12 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-yaseevtjllkglyqmxkgfzuvzrrbkdsgn; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576152912.07-103038322085559/AnsiballZ_file.py
+Dec 12 04:15:12 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:15:12 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:15:13 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-alaersjmlyzfpnmattpnggkbqrthzixa; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576152912.71-206854022252619/AnsiballZ_lineinfile.py
+Dec 12 04:15:13 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:15:13 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:15:13 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-abxzesatqkvgzhrkdamlrunjkklimddh; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576152913.33-118773324850271/AnsiballZ_blockinfile.py
+Dec 12 04:15:13 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:15:13 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:15:57 centosnode11 sshd[6998]: Received disconnect from 9.30.0.108 port 45378:11: disconnected by user
+Dec 12 04:15:57 centosnode11 sshd[6998]: Disconnected from 9.30.0.108 port 45378
+Dec 12 04:15:57 centosnode11 sshd[6995]: pam_unix(sshd:session): session closed for user ansible
+Dec 12 04:16:11 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gnjjsaubjlfyvodfwwaomfwgynnudaqs; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576152970.73-269384368333918/AnsiballZ_setup.py
+Dec 12 04:16:11 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:16:11 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:16:12 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-eqctijviurahbkutrxbbriuevkqpovfe; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576152971.94-5315193378784/AnsiballZ_slurp.py
+Dec 12 04:16:12 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:16:12 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:16:12 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lagebyhzsbpuffighrugsglsqtirdemc; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576152972.56-121293880829549/AnsiballZ_stat.py
+Dec 12 04:16:12 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:16:13 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:16:13 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ialsckurxgegnotopsbkwhnkeuwuahmb; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576152972.56-121293880829549/AnsiballZ_copy.py
+Dec 12 04:16:13 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:16:13 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:16:14 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fpjinyjkigqrpdvkscnpchzjqetputel; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576152973.7-57965875814255/AnsiballZ_file.py
+Dec 12 04:16:14 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:16:14 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:16:14 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-olfpivgnmqmgdiidcsrkpcaljesnimlb; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576152974.32-231131840160527/AnsiballZ_lineinfile.py
+Dec 12 04:16:14 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:16:14 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:16:15 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ivmesrpjsnvjefubhbuslglockussxss; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576152974.9-92140619888882/AnsiballZ_blockinfile.py
+Dec 12 04:16:15 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:16:15 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:17:13 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-yjgidqecxyynhxpgoexylxcbptqzxwpk; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576153032.95-250223238903748/AnsiballZ_setup.py
+Dec 12 04:17:13 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:17:14 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:17:14 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-yakswrpsnvspzfcciuxgdbsvdgepjatr; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576153034.17-75901264586039/AnsiballZ_slurp.py
+Dec 12 04:17:14 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:17:14 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:17:15 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ojrxpqqaumcbvyyqvbrklenaqumciile; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576153034.78-111411907960202/AnsiballZ_stat.py
+Dec 12 04:17:15 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:17:15 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:17:15 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ilelwhjaueorjjtvhppegwlfzpywsdck; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576153034.78-111411907960202/AnsiballZ_copy.py
+Dec 12 04:17:15 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:17:15 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:17:16 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-czgwdquljywvwaogjvicupwufghfxnwb; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576153035.91-258818653576742/AnsiballZ_file.py
+Dec 12 04:17:16 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:17:16 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:17:16 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-cycmgwbxbfbxlbtjekhcjqhwdoellhou; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576153036.54-120026009025566/AnsiballZ_lineinfile.py
+Dec 12 04:17:16 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:17:17 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:17:36 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mkqosaszgtypppfegfikoovlditcuopk; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576153056.32-70136379801547/AnsiballZ_setup.py
+Dec 12 04:17:36 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:17:37 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:17:37 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mloafrlprpfffdgaahfbxqcnvgaavjaj; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576153057.52-80466108426177/AnsiballZ_slurp.py
+Dec 12 04:17:37 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:17:38 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:17:38 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dupnjodyxuuanwwiktrfofutylvwwgib; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576153058.18-111329507578251/AnsiballZ_stat.py
+Dec 12 04:17:38 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:17:38 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:17:39 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-duvgxgnvirvhryrmcatdhvmpgmarxpgt; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576153058.18-111329507578251/AnsiballZ_copy.py
+Dec 12 04:17:39 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:17:39 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:17:39 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-iygkemizvlspleapotmajsgrsitxdlad; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576153059.31-268045618961311/AnsiballZ_file.py
+Dec 12 04:17:39 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:17:39 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:17:40 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-utmcpkktdsiyioiguqrxxqbuzgwhmqap; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576153059.99-213016971224300/AnsiballZ_lineinfile.py
+Dec 12 04:17:40 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:17:40 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:18:40 centosnode11 sshd[7082]: Received disconnect from 9.30.0.108 port 45380:11: disconnected by user
+Dec 12 04:18:40 centosnode11 sshd[7082]: Disconnected from 9.30.0.108 port 45380
+Dec 12 04:18:40 centosnode11 sshd[7079]: pam_unix(sshd:session): session closed for user devops
+Dec 12 04:19:10 centosnode11 sshd[9008]: Accepted publickey for devops from 9.30.0.108 port 45382 ssh2: RSA SHA256:TSXfF5GQyp9HMvZktyN0WqMpH89W1iXKWqkgwsPXT/8
+Dec 12 04:19:10 centosnode11 sshd[9008]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Dec 12 04:19:11 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tisjdnzbxsdmgybytysoacrvzypsihmj; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576153149.96-38604244180838/AnsiballZ_setup.py
+Dec 12 04:19:11 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:19:11 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:19:12 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rjtbgnokoxmvbhasrjrnvnvulsmmccub; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576153151.72-52391100705881/AnsiballZ_slurp.py
+Dec 12 04:19:12 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:19:12 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:19:12 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rluodebadblpbzfskmakzdzylrsgaoze; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576153152.33-114148916490750/AnsiballZ_file.py
+Dec 12 04:19:12 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:19:12 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:19:13 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xpxelkkmmjpukdygoxugkplvdideodsk; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576153153.0-143448715716104/AnsiballZ_lineinfile.py
+Dec 12 04:19:13 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:19:13 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:19:14 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wmaphqnqpknbkcqfniaekeqsffyihtat; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576153153.7-81392899909036/AnsiballZ_blockinfile.py
+Dec 12 04:19:14 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:19:14 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:19:21 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-nokqpmdywgedgpidaanojahqivzfuver; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576153161.15-119884310181694/AnsiballZ_setup.py
+Dec 12 04:19:21 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Dec 12 04:19:22 centosnode11 sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 04:19:22 centosnode11 sudo:  devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hucpstwzlbxlvmdwujodnzpxgnqwtvqr; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1576153162.41-18687827307857/AnsiballZ_slurp.py
+Dec 12 04:19:22 centosnode11 sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)

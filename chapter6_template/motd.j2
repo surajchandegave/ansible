@@ -1,0 +1,18 @@
+This is system: {{ ansible_hostname }} {{ ansible_facts.hostname }}
+Today's date is : {{ ansible_facts.date_time.date  }}
+Only use this system with permissions
+You can ask {{ system_owner }} for access
+
+
+{% for user in users %}
+{% if user != "root" %}
+  {{ user }} - {{ loop.index }}
+{% endif %}
+{% endfor %}
+
+
+{% for host in groups['all'] %}
+   {{host}}
+   {{ hostvars[host]['ansible_facts']['hostname'] }}
+   {{ hostvars[host].ansible_facts.hostname }}
+{% endfor %}

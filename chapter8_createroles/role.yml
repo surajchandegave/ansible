@@ -1,0 +1,43 @@
+---
+- hosts: centos
+  pre_tasks:
+  - name: pre_task from play
+    debug:
+      msg: pre_task from play
+    notify:
+    - handler from play pre_tasks
+    changed_when: true
+  roles:
+    - role: test-role
+      testvar: play
+      testvar1: play1
+      testvar2: play2
+ 
+  tasks:
+  - name: task from play
+    debug:
+      msg: task from play
+    notify:
+    - handler from play tasks
+    changed_when: true
+
+  post_tasks:
+  - name: post_task from play
+    debug:
+      msg: post_task from play
+    notify:
+    - handler from play post_tasks
+    changed_when: true
+
+  handlers:
+  - name: handler from play pre_tasks
+    debug:
+      msg: handler from play pre_tasks
+
+  - name: handler from play post_tasks
+    debug:
+      msg: handler from play post_tasks
+
+  - name: handler from play tasks
+    debug:
+      msg: handler from play tasks

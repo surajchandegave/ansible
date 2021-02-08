@@ -1,0 +1,50 @@
+---
+- name: play1
+  hosts: centos
+  become: true
+  tasks:
+  - name: install different yum modules
+    yum:
+      name:
+        - firewalld
+        - httpd
+        - php
+        - php-mysql
+        - mariadb-server
+      state: latest
+
+  - name: start firewalld serveice
+    service:
+      name: firewalld
+      enabled: true
+      state: started
+
+  - name: open port used by httpd
+    firewalld:
+      service: http
+      state: enabled
+
+  - name: start httpd serveice
+    service:
+      name: httpd
+      enabled: true
+      state: started
+
+  - name: start mariadb serveice
+    service:
+      name: mariadb
+      enabled: true
+      state: started
+
+  - name: update index.php
+    file:
+      content: "Ansible managed file"
+      path: /var/www/html/index.php
+      state: touch
+
+- name: play2
+  hosts: localhost
+  tasks:
+  - name: uri
+    uri:
+      url: http://9.30.188.227:80

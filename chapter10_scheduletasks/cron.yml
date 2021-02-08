@@ -1,0 +1,26 @@
+---
+- hosts: centos
+  become: true
+  tasks:
+  - name: set cron to run every hour
+    cron:
+      minute: "*/1"
+      user: root
+      state: present
+      job: "date >> /var/log/time.log"
+      cron_file: add-date-time
+      name: "Add date to /var/log/time.log every minute"
+
+  - name: change default boot target
+    file:
+      src: /usr/lib/systemd/system/multi-user.target
+      dest: /etc/systemd/system/default.target
+      state: link
+
+  - name: schedule a task to run once in future
+    at:
+      command: ls
+      units: minutes
+      count: 2
+      unique: yes
+      state: present

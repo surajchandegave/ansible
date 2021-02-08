@@ -1,0 +1,12 @@
+---
+- name: create user from secret vars file
+  hosts: centos
+  remote_user: devops
+  become: true
+  vars_files:
+  - secret.yml
+  tasks:
+  - name: create user
+    user:
+      name: "{{username}}"
+      password: "{{pw}}"

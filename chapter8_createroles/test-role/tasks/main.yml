@@ -1,0 +1,36 @@
+---
+# tasks file for test-role
+- name: test task from role
+  debug:
+    msg: test task from role
+  changed_when: true
+  notify:
+    - handler from role
+
+- name: test task1 from role
+  debug:
+    var: testvar
+
+- name: test task2 from role
+  debug:
+    var: testvar1
+
+- name: test task3 from role
+  debug:
+    var: testvar2
+
+- name: copy file to manage_host
+  copy:
+    src: copy.html
+    dest: /tmp/copy.html
+
+- name: copy template to manage_host
+  template:
+    src: template.html
+    dest: /tmp/template.html
+
+- name: create file on manage_host
+  file:
+    content: file created by ansible
+    dest: /tmp/file.html
+    state: touch

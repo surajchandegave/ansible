@@ -1,0 +1,44 @@
+---
+- hosts: centos
+  become: yes
+  vars:
+    ansible_user: ansible
+    ansible_group: ansible
+    filename: test1
+    mode: 0777
+  tasks:
+  - name: "Create file"
+    file:
+      state: touch
+      path: /tmp/{{ filename }}
+    register: file_output
+  - debug: 
+      msg: "File output is : {{file_output}}"
+  - debug:
+      var: file_output
+  - name: "Change file"
+    file:
+      state: file
+      path: /tmp/{{ filename }}
+      owner: "{{ ansible_user }}"
+      group: "{{ ansible_group }}"
+      mode: "{{mode}}"
+  - name: "Create dir"
+    file:
+      state: directory
+      path: /tmp/testdir/a
+      mode: u=rwx,g=rw,o=r
+      recurse: yes
+  - name: "Create symlink"
+    file:
+      state: link
+      src: /tmp/test1
+      path: /tmp/testdir/a/test1
+  - name: "Create file remove"
+    file:
+      state: absent
+      path: /tmp/test1
+  - name: "Create dir remove"
+    file:
+      state: absent
+      path: /tmp/testdir/a/b

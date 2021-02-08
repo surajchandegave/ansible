@@ -1,0 +1,57 @@
+---
+- hosts: redhat
+  become: true
+  tasks:
+  - name: make partition under /dev/sda
+    parted:
+      device: /dev/vda
+      number: 3
+      part_start: 268315MB
+      part_end: 268365MB
+      state: present
+      #unit: MB
+
+  - name: create vg
+    lvg:
+      vg: apache-vg
+      pvs: /dev/vda3
+
+  - name: create lvol
+    lvol:
+      lv: content-lv
+      size: 20M
+      vg: apache-vg
+    when: "'content-lv' not in ansible_facts.lvm.lvs"
+
+  - name: format lvolume
+    filesystem:
+      dev: /dev/apache-vg/content-lv
+      fstype: xfs
+
+  - block:
+    - name: create lvol
+      lvol:
+        lv: test-lv
+        size: 1000M
+        vg: apache-vg
+      when: "'test-lv' not in ansible_facts.lvm.lvs"
+      register: test_vol
+
+    rescue:
+    - name: crete lvol of lesser size
+      lvol:
+        lv: test-lv
+        size: 800M
+        vg: apache-vg
+      ignore_errors: true
+      register : lv_creation
+
+    - name: debug
+      debug:
+        msg: "{{lv_creation}}"
+   
+    - name: write error msg to file
+      copy:
+        content: "Can not create LV as space is not available"
+        dest: /tmp/lv
+      when: "'insufficient free space' in lv_creation.err"

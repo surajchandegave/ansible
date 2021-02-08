@@ -1,0 +1,16 @@
+---
+- name: install apache and start the service
+  hosts: centos
+  remote_user: devops
+  become: true
+  tasks:
+  - name: install apache "{{ansible_facts.ansible_local.custom.general.package}}"
+    yum:
+      name: "{{ansible_facts.ansible_local.custom.general.package}}"
+      state: latest
+
+  - name: install apache "{{ansible_facts.ansible_local.custom.general.service}}"
+    service:
+      name: "{{ansible_facts.ansible_local.custom.general.service}}"
+      state: "{{ansible_facts.ansible_local.custom.general.state}}"
+      enabled: true

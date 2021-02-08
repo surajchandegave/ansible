@@ -1,0 +1,43 @@
+---
+- hosts: centos
+  become: true
+  remote_user: devops
+  tasks:
+  - name: fetch files from managed hosts
+    fetch:
+      src: /var/log/secure
+      dest: fetchedfiles
+      flat: no
+
+  - name: copy file to host
+    copy:
+      src: users.txt
+      dest: /home/devops/users.txt
+      owner: devops
+      group: devops
+      mode: 0744
+      setype: samba_share_t
+
+  - name: set selinux default values
+    file:
+      path: /home/devops/users.txt
+      seuser: _default
+      serole: _default
+      setype: _default
+      selevel: _default
+      state: touch
+
+  - name: Add line to users.txt
+    lineinfile:
+      path: /home/devops/users.txt
+      line: Line added by lineinfile module
+      state: present
+
+  - name: Add Block of line to users.txt
+    blockinfile: 
+      block: |
+        This is block of line added by blockinfile
+        second line of blockinfile
+      path: /home/devops/users.txt
+      state: present
+   

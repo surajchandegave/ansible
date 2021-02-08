@@ -1,0 +1,32 @@
+---
+- name: variables demo
+  hosts: ubuntu
+  become: yes
+  vars:
+    web_pkg: apache2
+    firewall_pkg: firewalld
+    web_service: apache2
+    firewall_service: firewalld
+    python_pkg: uri
+    rule: apache2/tcp
+  tasks:
+  - name: install apache2 and firewalld
+    apt:
+      name:
+      - "{{web_pkg}}"
+      - "{{firewall_pkg}}"
+      state: latest
+
+  - name: start apache2 and firewalld
+    service:
+      name: "{{web_pkg}}"
+#      - "{{firewall_pkg}}"
+      state: started
+      enabled: yes
+
+  - name: open port 80
+    firewalld:
+      service: "{{rule}}"
+      state: enabled
+      permanent: yes
+      immediate: yes

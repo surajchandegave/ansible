@@ -1,0 +1,29 @@
+# before running this playbook : pip3 install jmesquery
+---
+- hosts: localhost
+  connection: local
+  gather_facts: No
+  vars:
+    json_text: "{{ lookup('file','netbox_device_list.json') | from_json }}"
+  tasks:
+  - name: Get json respose
+    uri:
+      url: "http://9.30.141.117:32011/api/dcim/devices"
+      method: GET
+      return_content: yes
+      status_code: 200
+      headers:
+        Authorization: "Token 0123456789abcdef0123456789abcdef01234567"
+      body_format: json
+    register: json_response
+  
+  - name: Print json text
+    debug: msg="{{ json_response }}"
+
+#  - name: Print json text
+#    debug: msg="{{ json_text }}"
+
+  - name: Print only names
+    debug: msg="{{ json_response.json | json_query(jmesquery)}}"
+    vars:
+      jmesquery: "results[?cluster.name == 'Overcloud'].name"

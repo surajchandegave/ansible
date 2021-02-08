@@ -1,0 +1,14 @@
+---
+- name: motd playbook
+  hosts: centos
+  become: true
+  remote_user: devops
+  tasks:
+  - name: copy motd file to managed hosts
+    template:
+      src: motd.j2
+      dest: /etc/motd
+      mode: 0644
+      owner: root
+      group: root
+  

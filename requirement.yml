@@ -1,0 +1,8 @@
+- src: test.role
+  name: role1
+  version: 5.1
+
+- src: git@git.ibm.com
+  scm: git
+  verion: latest
+  name:

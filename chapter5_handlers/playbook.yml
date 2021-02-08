@@ -1,0 +1,44 @@
+---
+- hosts: centos
+  become: true
+  remote_user: devops
+  vars:
+    db_packages:
+      - mariadb-server
+      - MySQL-python
+    mariadb_service: mariadb
+    config_source: my.cnf.j2
+    config_dest_file: /etc/my.cnf
+    mysql_user: root
+  tasks:
+  - name: install maria db
+    yum:
+      name: "{{db_packages}}"
+      state: latest
+    notify:
+      - set db password
+
+  - name: ensure service is started
+    service:
+      name: "{{mariadb_service}}"
+      state: started
+
+  - name: copy config file
+    template:
+      src: "{{config_source}}"
+      dest: "{{config_dest_file}}"
+      owner: mysql
+      group: mysql
+      mode: 0644
+    notify:
+      - restart db service
+
+  handlers:
+  - name: restart db service
+    service: name="{{mariadb_service}}" state=restarted
+
+  - name: set db password
+    mysql_user: 
+      name: root
+      password: root
+  

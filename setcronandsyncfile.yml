@@ -1,0 +1,17 @@
+---
+- hosts: centos
+  become: true
+  tasks:
+  - name: set cron
+    cron:
+      job: date >> /home/ansible/date.txt
+      minute: "*/2"
+      cron_file: date_file
+      user: root
+      name: record_date_time
+
+  - name: synce file to controller
+    synchronize:
+      src: rsync://{{ansible_facts.default_ipv4.address}}/home/ansible/date.txt
+      dest: /home/ansible/sync_date.txt
+      mode: pull

@@ -1,0 +1,15 @@
+---
+- hosts: all
+  tasks:
+  - name: server list
+    template:
+      src: server_list.j2
+      dest: /home/ansible/server_list.txt
+      owner: ansible
+      setype: net_conf_t
+      mode: 0600
+    when: "'webservers' in group_names"
+
+  - name: group_names
+    debug:
+      var: group_names

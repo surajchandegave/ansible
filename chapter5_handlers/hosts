@@ -1,0 +1,13 @@
+[web]
+centosnode1.fyre.ibm.com
+ubuntunode1.fyre.ibm.com
+
+[centos]
+centosnode1.fyre.ibm.com
+
+[ubuntu]
+ubuntunode1.fyre.ibm.com
+
+#[centos:vars]
+#ansible_ssh_user=ansible
+#ansible_ssh_password=Suraj@123
